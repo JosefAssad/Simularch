@@ -1,0 +1,399 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>EA</sitename>
+    <base>http://localhost/core/index.php/Main_Page</base>
+    <generator>MediaWiki 1.23.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">EA</namespace>
+      <namespace key="5" case="first-letter">EA talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Property:SSO has URL</title>
+    <ns>102</ns>
+    <id>43</id>
+    <revision>
+      <id>66</id>
+      <parentid>65</parentid>
+      <timestamp>2014-09-16T08:29:07Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
+
+[[Category:Simularch]]</text>
+      <sha1>mysoodnvyquxthwpeqhl19oyibnc3gb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SSO</title>
+    <ns>10</ns>
+    <id>45</id>
+    <revision>
+      <id>69</id>
+      <parentid>68</parentid>
+      <timestamp>2014-09-16T08:32:26Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="376">&lt;noinclude&gt;
+This is the &quot;SSO&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{SSO
+|SSOURL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! SSO URL
+| [[SSO has URL::{{{SSOURL|}}}]] 
+|-
+! 
+| {{#ask:[[Standard has SSO::{{SUBJECTPAGENAME}}]]|format=list}}
+|}
+
+[[Category:SSOs]]
+&lt;/includeonly&gt;</text>
+      <sha1>h1v2r9bnb0m4qmgrg1pm56u7fusvyoz</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:SSO</title>
+    <ns>106</ns>
+    <id>46</id>
+    <revision>
+      <id>71</id>
+      <parentid>70</parentid>
+      <timestamp>2014-09-16T08:33:58Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="758">&lt;noinclude&gt;
+This is the &quot;SSO&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=SSO}}
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|SSO}}}
+{| class=&quot;formtable&quot;
+! URL: 
+| {{{field|SSOURL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>r4fz7giynuetul1v08wf6bmg5ozgwl6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Standard has SSO</title>
+    <ns>102</ns>
+    <id>48</id>
+    <revision>
+      <id>74</id>
+      <parentid>73</parentid>
+      <timestamp>2014-09-16T08:37:55Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="133">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::SSO]].
+
+[[Category:Simularch]]</text>
+      <sha1>9yu3av4ai3kjiky3cg2me5em7psyr72</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Standard</title>
+    <ns>10</ns>
+    <id>49</id>
+    <revision>
+      <id>79</id>
+      <parentid>76</parentid>
+      <timestamp>2014-09-16T08:41:36Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="417">&lt;noinclude&gt;
+This is the &quot;Standard&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Standard
+|StandardSSO=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! SSO
+| [[Standard has SSO::{{{StandardSSO|}}}]] 
+|-
+! 
+| {{#ask:[[Standard version is instance of::{{SUBJECTPAGENAME}}]]|format=list}}
+|}
+
+[[Category:Standards]]
+&lt;/includeonly&gt;</text>
+      <sha1>097mp8a22inmp8ajthg96gy3yohip6y</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Standard</title>
+    <ns>106</ns>
+    <id>50</id>
+    <revision>
+      <id>78</id>
+      <parentid>77</parentid>
+      <timestamp>2014-09-16T08:40:59Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="832">&lt;noinclude&gt;
+This is the &quot;Standard&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=Standard}}
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Standard}}}
+{| class=&quot;formtable&quot;
+! StandardSSO: 
+| {{{field|StandardSSO|input type=combobox|values from category=SSOs}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>0kwopdyjqz2qiy3u3vq7vuzky0mfna8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Standard version is instance of</title>
+    <ns>102</ns>
+    <id>52</id>
+    <revision>
+      <id>83</id>
+      <parentid>82</parentid>
+      <timestamp>2014-09-16T08:45:20Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="138">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Standard]].
+
+[[Category:Simularch]]</text>
+      <sha1>55l10n844iqk6easf28784e8drhf69d</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Standard version documentation URL</title>
+    <ns>102</ns>
+    <id>53</id>
+    <revision>
+      <id>85</id>
+      <parentid>84</parentid>
+      <timestamp>2014-09-16T08:47:59Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
+
+[[Category:Simularch]]</text>
+      <sha1>mysoodnvyquxthwpeqhl19oyibnc3gb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Standard version status</title>
+    <ns>102</ns>
+    <id>54</id>
+    <revision>
+      <id>87</id>
+      <parentid>86</parentid>
+      <timestamp>2014-09-16T08:52:43Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="201">This is a property of type [[Has type::Text]].
+
+The allowed values for this property are:
+* [[Allows value::Current]]
+* [[Allows value::Candidate]]
+* [[Allows value::Obsolete]]
+
+
+[[Category:Simularch]]</text>
+      <sha1>mywk1megf7taipo2u7l0jj8c5dqef18</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:StandardVersion</title>
+    <ns>10</ns>
+    <id>55</id>
+    <revision>
+      <id>90</id>
+      <parentid>89</parentid>
+      <timestamp>2014-09-16T09:04:05Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="574">&lt;noinclude&gt;
+This is the &quot;StandardVersion&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{StandardVersion
+|Standard=
+|Status=
+|DocumentationURL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Instance of standard
+| [[Standard version is instance of::{{{Standard|}}}]] 
+|-
+! Status
+| [[Standard version status::{{{Status|}}}]] 
+|-
+! Documentation URL
+| {{#arraymap:{{{DocumentationURL|}}}|,|x|[[Standard version documentation URL::x]]}}
+|}
+
+[[Category:Standard Versions]]
+&lt;/includeonly&gt;</text>
+      <sha1>mburok3x6nexeuiailucy11so42v25l</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:StandardVersion</title>
+    <ns>106</ns>
+    <id>56</id>
+    <revision>
+      <id>92</id>
+      <parentid>91</parentid>
+      <timestamp>2014-09-16T09:05:43Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="942">&lt;noinclude&gt;
+This is the &quot;StandardVersion&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=StandardVersion}}
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|StandardVersion}}}
+{| class=&quot;formtable&quot;
+! Standard: 
+| {{{field|Standard|input type=combobox|values from category=Standards}}}
+|-
+! Status: 
+| {{{field|Status}}}
+|-
+! DocumentationURL: 
+| {{{field|DocumentationURL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>ht21ciwrpdvjqosxutsr7esjjl33ak8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>
