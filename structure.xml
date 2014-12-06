@@ -396,4 +396,130 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:Vendor from country</title>
+    <ns>102</ns>
+    <id>58</id>
+    <revision>
+      <id>95</id>
+      <parentid>94</parentid>
+      <timestamp>2014-12-06T21:03:01Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Vendor has URL</title>
+    <ns>102</ns>
+    <id>59</id>
+    <revision>
+      <id>97</id>
+      <parentid>96</parentid>
+      <timestamp>2014-12-06T21:07:11Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
+
+[[Category:Simularch]]</text>
+      <sha1>mysoodnvyquxthwpeqhl19oyibnc3gb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Vendor</title>
+    <ns>10</ns>
+    <id>60</id>
+    <revision>
+      <id>99</id>
+      <parentid>98</parentid>
+      <timestamp>2014-12-06T22:46:57Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="373">&lt;noinclude&gt;
+This is the &quot;Vendor&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Vendor
+|Country=
+|URL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Country
+| [[Vendor from country::{{{Country|}}}]] 
+|-
+! URL
+| [[Vendor has URL::{{{URL|}}}]] 
+|}
+
+[[Category:Vendors]]
+&lt;/includeonly&gt;</text>
+      <sha1>pgcz0hvh9jeefjrkqztod2995qrm2ai</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Vendor</title>
+    <ns>106</ns>
+    <id>61</id>
+    <revision>
+      <id>101</id>
+      <parentid>100</parentid>
+      <timestamp>2014-12-06T22:53:42Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="801">&lt;noinclude&gt;
+This is the &quot;Vendor&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=Vendor}}
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Vendor}}}
+{| class=&quot;formtable&quot;
+! Country: 
+| {{{field|Country}}}
+|-
+! URL: 
+| {{{field|URL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>p9fbj8r4afnzhqtx3krn7eifcu7lge8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
