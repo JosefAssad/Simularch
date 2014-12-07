@@ -1330,4 +1330,237 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:BA component one line description</title>
+    <ns>102</ns>
+    <id>104</id>
+    <revision>
+      <id>179</id>
+      <parentid>178</parentid>
+      <timestamp>2014-12-07T12:31:02Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HLBA component</title>
+    <ns>102</ns>
+    <id>105</id>
+    <revision>
+      <id>181</id>
+      <parentid>180</parentid>
+      <timestamp>2014-12-07T12:31:50Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="143">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::HLBAComponent]].
+
+[[Category:Simularch]]</text>
+      <sha1>ntq2vvrzuxif8mh0oyzl79u32upcx7q</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:BAComponent</title>
+    <ns>10</ns>
+    <id>106</id>
+    <revision>
+      <id>183</id>
+      <parentid>182</parentid>
+      <timestamp>2014-12-07T12:36:22Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="467">&lt;noinclude&gt;
+This is the &quot;BAComponent&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{BAComponent
+|Description=
+|HLBAComponent=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Description
+| [[BA component one line description::{{{Description|}}}]] 
+|-
+! HLBA Component
+| {{#arraymap:{{{HLBAComponent|}}}|,|x|[[HLBA component::x]]}}
+|}
+
+[[Category:BA Components]]
+&lt;/includeonly&gt;</text>
+      <sha1>gox1s865c0terxvm7zdbp2mm916seim</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:BAComponent</title>
+    <ns>106</ns>
+    <id>107</id>
+    <revision>
+      <id>185</id>
+      <parentid>184</parentid>
+      <timestamp>2014-12-07T12:37:50Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="899">&lt;noinclude&gt;
+This is the &quot;BAComponent&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=BAComponent}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|BAComponent}}}
+{| class=&quot;formtable&quot;
+! Description: 
+| {{{field|Description|input type=text}}}
+|-
+! HLBAComponent: 
+| {{{field|HLBAComponent|values from category=HLBA Components}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>g608o1nsbjw1mxkeiipfxd8mejx32io</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HLBA component description</title>
+    <ns>102</ns>
+    <id>108</id>
+    <revision>
+      <id>187</id>
+      <parentid>186</parentid>
+      <timestamp>2014-12-07T12:38:35Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:HLBAComponent</title>
+    <ns>10</ns>
+    <id>109</id>
+    <revision>
+      <id>189</id>
+      <parentid>188</parentid>
+      <timestamp>2014-12-07T12:44:51Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="367">&lt;noinclude&gt;
+This is the &quot;HLBAComponent&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{HLBAComponent
+|Description=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Description
+| [[HLBA component description::{{{Description|}}}]] 
+|}
+
+[[Category:HLBA Components]]
+&lt;/includeonly&gt;</text>
+      <sha1>6j6horiu4whgxqfsvdg3z2huczuj07y</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:HLBAComponent</title>
+    <ns>106</ns>
+    <id>110</id>
+    <revision>
+      <id>191</id>
+      <parentid>190</parentid>
+      <timestamp>2014-12-07T12:45:38Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="803">&lt;noinclude&gt;
+This is the &quot;HLBAComponent&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=HLBAComponent}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|HLBAComponent}}}
+{| class=&quot;formtable&quot;
+! Description: 
+| {{{field|Description}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>asah5elwjuknqy5phxd6ku12z6e9n59</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
