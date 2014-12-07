@@ -916,4 +916,154 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:Server hostname</title>
+    <ns>102</ns>
+    <id>81</id>
+    <revision>
+      <id>139</id>
+      <parentid>138</parentid>
+      <timestamp>2014-12-07T10:53:45Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Server OS</title>
+    <ns>102</ns>
+    <id>82</id>
+    <revision>
+      <id>141</id>
+      <parentid>140</parentid>
+      <timestamp>2014-12-07T10:54:33Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="147">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::DependencyVersion]].
+
+[[Category:Simularch]]</text>
+      <sha1>bg2z4te2b8hm0t7xd9honfsmmzgbsej</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Server steward</title>
+    <ns>102</ns>
+    <id>83</id>
+    <revision>
+      <id>143</id>
+      <parentid>142</parentid>
+      <timestamp>2014-12-07T10:55:08Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
+
+[[Category:Simularch]]</text>
+      <sha1>6vn0ooocx4ysj68x5wi0f32zfju73mr</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Server</title>
+    <ns>10</ns>
+    <id>84</id>
+    <revision>
+      <id>145</id>
+      <parentid>144</parentid>
+      <timestamp>2014-12-07T10:57:22Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="380">&lt;noinclude&gt;
+This is the &quot;Server&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Server
+|Hostname=
+|OS=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Hostname
+| [[Server hostname::{{{Hostname|}}}]] 
+|-
+! Operating System
+| [[Server OS::{{{OS|}}}]] 
+|}
+
+[[Category:Servers]]
+&lt;/includeonly&gt;</text>
+      <sha1>8lum580me49y7q79bul90zk0f7atn5e</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Server</title>
+    <ns>106</ns>
+    <id>85</id>
+    <revision>
+      <id>148</id>
+      <parentid>147</parentid>
+      <timestamp>2014-12-07T11:00:22Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="880">&lt;noinclude&gt;
+This is the &quot;Server&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=Server}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Server}}}
+{| class=&quot;formtable&quot;
+! Hostname: 
+| {{{field|Hostname|input type=text}}}
+|-
+! OS: 
+| {{{field|OS|input type=combobox|values from category=Dependency Versions}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>ox9vk6i6n3zu2a8ajc9kcoshjozxjsv</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
