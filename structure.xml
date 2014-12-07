@@ -675,4 +675,245 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:Parent organizational unit</title>
+    <ns>102</ns>
+    <id>68</id>
+    <revision>
+      <id>114</id>
+      <parentid>113</parentid>
+      <timestamp>2014-12-07T09:50:37Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="148">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::OrganizationalUnit]].
+
+[[Category:Simularch]]</text>
+      <sha1>b2iavydol40y39reh2zf544tel19cyn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Organizational unit steward</title>
+    <ns>102</ns>
+    <id>69</id>
+    <revision>
+      <id>116</id>
+      <parentid>115</parentid>
+      <timestamp>2014-12-07T09:51:25Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
+
+[[Category:Simularch]]</text>
+      <sha1>6vn0ooocx4ysj68x5wi0f32zfju73mr</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:OrganizationalUnit</title>
+    <ns>10</ns>
+    <id>70</id>
+    <revision>
+      <id>118</id>
+      <parentid>117</parentid>
+      <timestamp>2014-12-07T09:53:15Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="448">&lt;noinclude&gt;
+This is the &quot;OrganizationalUnit&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{OrganizationalUnit
+|Parent=
+|Steward=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Parent (if any)
+| [[Parent organizational unit::{{{Parent|}}}]] 
+|-
+! Steward
+| [[Organizational unit steward::{{{Steward|}}}]] 
+|}
+
+[[Category:Organizational Units]]
+&lt;/includeonly&gt;</text>
+      <sha1>5tq0k252ryviv1444gil6fj3z411e4v</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:OrganizationalUnit</title>
+    <ns>106</ns>
+    <id>71</id>
+    <revision>
+      <id>125</id>
+      <parentid>123</parentid>
+      <timestamp>2014-12-07T10:01:07Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="967">&lt;noinclude&gt;
+This is the &quot;OrganizationalUnit&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=OrganizationalUnit}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|OrganizationalUnit}}}
+{| class=&quot;formtable&quot;
+! Parent: 
+| {{{field|Parent|values from category=Organizational Units|input type=combobox}}}
+|-
+! Steward: 
+| {{{field|Steward|values from category=Component Stewards|input type=combobox}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>4ahugxn9kqk2y0fl3vd7pidyib2rsde</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward full name</title>
+    <ns>102</ns>
+    <id>75</id>
+    <revision>
+      <id>127</id>
+      <parentid>126</parentid>
+      <timestamp>2014-12-07T10:06:54Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward email</title>
+    <ns>102</ns>
+    <id>76</id>
+    <revision>
+      <id>129</id>
+      <parentid>128</parentid>
+      <timestamp>2014-12-07T10:07:32Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="71">This is a property of type [[Has type::Email]].
+
+[[Category:Simularch]]</text>
+      <sha1>gs5vf1uvxj3tufuez56kmy5z9826ip9</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward phone</title>
+    <ns>102</ns>
+    <id>77</id>
+    <revision>
+      <id>134</id>
+      <parentid>131</parentid>
+      <timestamp>2014-12-07T10:17:06Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:ComponentSteward</title>
+    <ns>106</ns>
+    <id>80</id>
+    <revision>
+      <id>137</id>
+      <parentid>136</parentid>
+      <timestamp>2014-12-07T10:20:32Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="878">&lt;noinclude&gt;
+This is the &quot;ComponentSteward&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=ComponentSteward}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|ComponentSteward}}}
+{| class=&quot;formtable&quot;
+! Name: 
+| {{{field|Name|rows=1}}}
+|-
+! Email: 
+| {{{field|Email}}}
+|-
+! Phone: 
+| {{{field|Phone|rows=1}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>gn1k469t2qc3fybbigk9tsx9lemn7i4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
