@@ -1066,4 +1066,84 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:Infrastructure facility uses servers</title>
+    <ns>102</ns>
+    <id>87</id>
+    <revision>
+      <id>151</id>
+      <parentid>150</parentid>
+      <timestamp>2014-12-07T11:09:35Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="136">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Server]].
+
+[[Category:Simularch]]</text>
+      <sha1>mv42szw80brot1mg5mmrikry3cjqied</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Infrastructure facility steward</title>
+    <ns>102</ns>
+    <id>88</id>
+    <revision>
+      <id>153</id>
+      <parentid>152</parentid>
+      <timestamp>2014-12-07T11:10:17Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
+
+[[Category:Simularch]]</text>
+      <sha1>6vn0ooocx4ysj68x5wi0f32zfju73mr</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfrastructureFacility</title>
+    <ns>10</ns>
+    <id>89</id>
+    <revision>
+      <id>155</id>
+      <parentid>154</parentid>
+      <timestamp>2014-12-07T11:11:54Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="495">&lt;noinclude&gt;
+This is the &quot;InfrastructureFacility&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{InfrastructureFacility
+|Servers=
+|Steward=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Servers Used
+| {{#arraymap:{{{Servers|}}}|,|x|[[Infrastructure facility uses servers::x]]}}
+|-
+! Steward
+| [[Infrastructure facility steward::{{{Steward|}}}]] 
+|}
+
+[[Category:Infrastructure Facilities]]
+&lt;/includeonly&gt;</text>
+      <sha1>p9gkm6gb3idysojkobfbidl5nsoz941</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
