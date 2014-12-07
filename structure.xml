@@ -1146,4 +1146,188 @@ Edit the page to see the template text.
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:Is version of license</title>
+    <ns>102</ns>
+    <id>95</id>
+    <revision>
+      <id>162</id>
+      <parentid>161</parentid>
+      <timestamp>2014-12-07T11:52:08Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="137">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::License]].
+
+[[Category:Simularch]]</text>
+      <sha1>oqushmrzxizvpr8q08v3accyk0hd400</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:URL of full license text</title>
+    <ns>102</ns>
+    <id>96</id>
+    <revision>
+      <id>164</id>
+      <parentid>163</parentid>
+      <timestamp>2014-12-07T11:53:00Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
+
+[[Category:Simularch]]</text>
+      <sha1>mysoodnvyquxthwpeqhl19oyibnc3gb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License version identifier</title>
+    <ns>102</ns>
+    <id>97</id>
+    <revision>
+      <id>166</id>
+      <parentid>165</parentid>
+      <timestamp>2014-12-07T11:53:48Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License version precedent</title>
+    <ns>102</ns>
+    <id>98</id>
+    <revision>
+      <id>168</id>
+      <parentid>167</parentid>
+      <timestamp>2014-12-07T11:56:12Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="144">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::LicenseVersion]].
+
+[[Category:Simularch]]</text>
+      <sha1>hgl39wfgqhg003m3fhmlafixgqte4bw</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:LicenseVersion</title>
+    <ns>10</ns>
+    <id>99</id>
+    <revision>
+      <id>170</id>
+      <parentid>169</parentid>
+      <timestamp>2014-12-07T12:00:51Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="609">&lt;noinclude&gt;
+This is the &quot;LicenseVersion&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{LicenseVersion
+|License=
+|Version=
+|Precedent=
+|URL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Version of license
+| [[Is version of license::{{{License|}}}]] 
+|-
+! Version identifier
+| [[License version identifier::{{{Version|}}}]] 
+|-
+! Version Precedent
+| [[License version precedent::{{{Precedent|}}}]] 
+|-
+! URL to License Text
+| [[URL of full license text::{{{URL|}}}]] 
+|}
+
+[[Category:License Versions]]
+&lt;/includeonly&gt;</text>
+      <sha1>kpsx6l21w2lkrmt691n1x8ivlspeuwc</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:LicenseVersion</title>
+    <ns>106</ns>
+    <id>100</id>
+    <revision>
+      <id>174</id>
+      <parentid>173</parentid>
+      <timestamp>2014-12-07T12:04:17Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="1029">&lt;noinclude&gt;
+This is the &quot;LicenseVersion&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=LicenseVersion}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|LicenseVersion}}}
+{| class=&quot;formtable&quot;
+! License: 
+| {{{field|License|input type=combobox|values from category=Licenses}}}
+|-
+! Version: 
+| {{{field|Version|input type=text}}}
+|-
+! Precedent: 
+| {{{field|Precedent|input type=combobox|values from category=License Versions}}}
+|-
+! URL: 
+| {{{field|URL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>i67r0vpp9bp1hd7phw9tppkj2ojx2tq</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
