@@ -522,4 +522,157 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:License is commercial</title>
+    <ns>102</ns>
+    <id>62</id>
+    <revision>
+      <id>103</id>
+      <parentid>102</parentid>
+      <timestamp>2014-12-06T23:20:25Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="73">This is a property of type [[Has type::Boolean]].
+
+[[Category:Simularch]]</text>
+      <sha1>9o8gxlmnxfh0q5odiqr4wl5e0r9skgs</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License is OSI approved</title>
+    <ns>102</ns>
+    <id>63</id>
+    <revision>
+      <id>105</id>
+      <parentid>104</parentid>
+      <timestamp>2014-12-06T23:51:51Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="73">This is a property of type [[Has type::Boolean]].
+
+[[Category:Simularch]]</text>
+      <sha1>9o8gxlmnxfh0q5odiqr4wl5e0r9skgs</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License is described on URL</title>
+    <ns>102</ns>
+    <id>64</id>
+    <revision>
+      <id>107</id>
+      <parentid>106</parentid>
+      <timestamp>2014-12-07T00:12:34Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
+
+[[Category:Simularch]]</text>
+      <sha1>mysoodnvyquxthwpeqhl19oyibnc3gb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:License</title>
+    <ns>10</ns>
+    <id>65</id>
+    <revision>
+      <id>109</id>
+      <parentid>108</parentid>
+      <timestamp>2014-12-07T00:14:20Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="505">&lt;noinclude&gt;
+This is the &quot;License&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{License
+|OSI approved=
+|Commercial=
+|URL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! OSI approved
+| [[License is OSI approved::{{{OSI approved|}}}]] 
+|-
+! Is commercial?
+| [[License is commercial::{{{Commercial|}}}]] 
+|-
+! URL to license text
+| [[License is described on URL::{{{URL|}}}]] 
+|}
+
+[[Category:Licenses]]
+&lt;/includeonly&gt;</text>
+      <sha1>8wtx8as2zzak7dlfikfnd90ohmtiwai</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:License</title>
+    <ns>106</ns>
+    <id>66</id>
+    <revision>
+      <id>111</id>
+      <parentid>110</parentid>
+      <timestamp>2014-12-07T00:15:00Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="857">&lt;noinclude&gt;
+This is the &quot;License&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=License}}
+[[Category:Simularch]]
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|License}}}
+{| class=&quot;formtable&quot;
+! OSI approved: 
+| {{{field|OSI approved}}}
+|-
+! Commercial: 
+| {{{field|Commercial}}}
+|-
+! URL: 
+| {{{field|URL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>13lodo313qh0kctbpuuu4b9mtc93qyy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
