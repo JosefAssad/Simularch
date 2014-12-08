@@ -1877,4 +1877,107 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:System is member of BA component</title>
+    <ns>102</ns>
+    <id>133</id>
+    <revision>
+      <id>228</id>
+      <parentid>227</parentid>
+      <timestamp>2014-12-07T17:48:12Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="141">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::BAComponent]].
+
+[[Category:Simularch]]</text>
+      <sha1>hfbfj0z1bi60vazz3lsfyl2r3aje74h</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:System</title>
+    <ns>10</ns>
+    <id>134</id>
+    <revision>
+      <id>230</id>
+      <parentid>229</parentid>
+      <timestamp>2014-12-07T17:49:16Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="352">&lt;noinclude&gt;
+This is the &quot;System&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{System
+|BAComponent=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! BA Component
+| [[System is member of BA component::{{{BAComponent|}}}]] 
+|}
+
+[[Category:Systems]]
+&lt;/includeonly&gt;</text>
+      <sha1>ig15mdrord0ib9dlw17bb8aj3t2kuk6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:System</title>
+    <ns>106</ns>
+    <id>135</id>
+    <revision>
+      <id>232</id>
+      <parentid>231</parentid>
+      <timestamp>2014-12-07T17:50:14Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="837">&lt;noinclude&gt;
+This is the &quot;System&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=System}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|System}}}
+{| class=&quot;formtable&quot;
+! BAComponent: 
+| {{{field|BAComponent|input type=combobox|values from category=BA Components}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>covwjiupjshemyz3hlcsz7nvqzk423t</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
