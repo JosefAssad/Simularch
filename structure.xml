@@ -1980,4 +1980,161 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Property:System version deployed</title>
+    <ns>102</ns>
+    <id>137</id>
+    <revision>
+      <id>235</id>
+      <parentid>234</parentid>
+      <timestamp>2014-12-07T18:05:14Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="143">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::SystemVersion]].
+
+[[Category:Simularch]]</text>
+      <sha1>6mb33zkro6w6eubo3slhtxjyetpjqbq</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Infrastructure facility used</title>
+    <ns>102</ns>
+    <id>138</id>
+    <revision>
+      <id>237</id>
+      <parentid>236</parentid>
+      <timestamp>2014-12-07T18:05:47Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="152">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::InfrastructureFacility]].
+
+[[Category:Simularch]]</text>
+      <sha1>bs4wmbi2iq5j4j9ng16njc08h18wgi3</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Organizational unit served</title>
+    <ns>102</ns>
+    <id>139</id>
+    <revision>
+      <id>239</id>
+      <parentid>238</parentid>
+      <timestamp>2014-12-07T18:06:22Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="148">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::OrganizationalUnit]].
+
+[[Category:Simularch]]</text>
+      <sha1>b2iavydol40y39reh2zf544tel19cyn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DeployedSystemVersion</title>
+    <ns>10</ns>
+    <id>140</id>
+    <revision>
+      <id>241</id>
+      <parentid>240</parentid>
+      <timestamp>2014-12-07T18:08:28Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="662">&lt;noinclude&gt;
+This is the &quot;DeployedSystemVersion&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{DeployedSystemVersion
+|SystemVersion=
+|InfrastructureFacility=
+|OrganizationalUnit=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! System Version
+| [[System version deployed::{{{SystemVersion|}}}]] 
+|-
+! Infrastructure Facility
+| {{#arraymap:{{{InfrastructureFacility|}}}|,|x|[[Infrastructure facility used::x]]}}
+|-
+! Organizational Unit
+| {{#arraymap:{{{OrganizationalUnit|}}}|,|x|[[Organizational unit served::x]]}}
+|}
+
+[[Category:Deployed System Versions]]
+&lt;/includeonly&gt;</text>
+      <sha1>ox4bq9us6waogtxefp1z1sso8nr60r3</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:DeployedSystemVersion</title>
+    <ns>106</ns>
+    <id>141</id>
+    <revision>
+      <id>243</id>
+      <parentid>242</parentid>
+      <timestamp>2014-12-07T18:10:00Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="1103">&lt;noinclude&gt;
+This is the &quot;DeployedSystemVersion&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=DeployedSystemVersion}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|DeployedSystemVersion}}}
+{| class=&quot;formtable&quot;
+! SystemVersion: 
+| {{{field|SystemVersion|input type=combobox|values from category=System Versions}}}
+|-
+! InfrastructureFacility: 
+| {{{field|InfrastructureFacility|values from category=Infrastructure Facilities}}}
+|-
+! OrganizationalUnit: 
+| {{{field|OrganizationalUnit|values from category=Organizational Units}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>blv4sh8vrfirck2tvdm976q1695hl5h</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
