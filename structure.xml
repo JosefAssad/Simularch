@@ -54,88 +54,6 @@
     </revision>
   </page>
   <page>
-    <title>Template:SSO</title>
-    <ns>10</ns>
-    <id>45</id>
-    <revision>
-      <id>69</id>
-      <parentid>68</parentid>
-      <timestamp>2014-09-16T08:32:26Z</timestamp>
-      <contributor>
-        <username>JosefAssad</username>
-        <id>2</id>
-      </contributor>
-      <text xml:space="preserve" bytes="376">&lt;noinclude&gt;
-This is the &quot;SSO&quot; template.
-It should be called in the following format:
-&lt;pre&gt;
-{{SSO
-|SSOURL=
-}}
-&lt;/pre&gt;
-Edit the page to see the template text.
-[[Category:Simularch]]
-&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
-! SSO URL
-| [[SSO has URL::{{{SSOURL|}}}]] 
-|-
-! 
-| {{#ask:[[Standard has SSO::{{SUBJECTPAGENAME}}]]|format=list}}
-|}
-
-[[Category:SSOs]]
-&lt;/includeonly&gt;</text>
-      <sha1>h1v2r9bnb0m4qmgrg1pm56u7fusvyoz</sha1>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-    </revision>
-  </page>
-  <page>
-    <title>Form:SSO</title>
-    <ns>106</ns>
-    <id>46</id>
-    <revision>
-      <id>71</id>
-      <parentid>70</parentid>
-      <timestamp>2014-09-16T08:33:58Z</timestamp>
-      <contributor>
-        <username>JosefAssad</username>
-        <id>2</id>
-      </contributor>
-      <text xml:space="preserve" bytes="758">&lt;noinclude&gt;
-This is the &quot;SSO&quot; form.
-To create a page with this form, enter the page name below;
-if a page with that name already exists, you will be sent to a form to edit that page.
-
-
-{{#forminput:form=SSO}}
-[[Category:Simularch]]
-&lt;/noinclude&gt;&lt;includeonly&gt;
-&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
-{{{for template|SSO}}}
-{| class=&quot;formtable&quot;
-! URL: 
-| {{{field|SSOURL}}}
-|}
-{{{end template}}}
-
-'''Free text:'''
-
-{{{standard input|free text|rows=10}}}
-
-
-{{{standard input|summary}}}
-
-{{{standard input|minor edit}}} {{{standard input|watch}}}
-
-{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
-&lt;/includeonly&gt;</text>
-      <sha1>r4fz7giynuetul1v08wf6bmg5ozgwl6</sha1>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-    </revision>
-  </page>
-  <page>
     <title>Property:Standard has SSO</title>
     <ns>102</ns>
     <id>48</id>
@@ -2533,6 +2451,134 @@ if a page with that name already exists, you will be sent to a form to edit that
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
       <sha1>3au1ime7jg7umqc9roonutog4wnu7u4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:BA Components</title>
+    <ns>14</ns>
+    <id>160</id>
+    <revision>
+      <id>277</id>
+      <timestamp>2014-12-07T19:06:17Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;[[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="22">[[Category:Simularch]]</text>
+      <sha1>b3l4mxihj52zrvaz3rrxzka1e0yo4zd</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:SSO friendly name</title>
+    <ns>102</ns>
+    <id>161</id>
+    <revision>
+      <id>279</id>
+      <parentid>278</parentid>
+      <timestamp>2014-12-09T10:01:45Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
+
+[[Category:Simularch]]</text>
+      <sha1>qfbe1h2bgr5yam6qmjozdmbn70mqc4j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SSO</title>
+    <ns>10</ns>
+    <id>162</id>
+    <revision>
+      <id>281</id>
+      <parentid>280</parentid>
+      <timestamp>2014-12-09T10:04:04Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="361">&lt;noinclude&gt;
+This is the &quot;SSO&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{SSO
+|Name=
+|URL=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Friendly name
+| [[SSO friendly name::{{{Name|}}}]] 
+|-
+! URL
+| [[SSO has URL::{{{URL|}}}]] 
+|}
+
+[[Category:SSOs]]
+&lt;/includeonly&gt;</text>
+      <sha1>r6fqqhp7wnnev777bropyyhrug2qivy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Form:SSO</title>
+    <ns>106</ns>
+    <id>163</id>
+    <revision>
+      <id>284</id>
+      <parentid>283</parentid>
+      <timestamp>2014-12-09T10:05:43Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="804">&lt;noinclude&gt;
+This is the &quot;SSO&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=SSO}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|SSO}}}
+{| class=&quot;formtable&quot;
+! Name: 
+| {{{field|Name|input type=text}}}
+|-
+! URL: 
+| {{{field|URL}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>f73shpdeefqdmaftwfgc5jjta814wb9</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
