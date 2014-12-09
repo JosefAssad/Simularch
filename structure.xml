@@ -2851,13 +2851,63 @@ if a page with that name already exists, you will be sent to a form to edit that
     </revision>
   </page>
   <page>
+    <title>Form:InfrastructureFacility</title>
+    <ns>106</ns>
+    <id>91</id>
+    <revision>
+      <id>306</id>
+      <parentid>157</parentid>
+      <timestamp>2014-12-09T21:44:39Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="928">&lt;noinclude&gt;
+This is the &quot;InfrastructureFacility&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=InfrastructureFacility}}
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|InfrastructureFacility}}}
+{| class=&quot;formtable&quot;
+! Servers: 
+| {{{field|Servers|values from category=Servers}}}
+|-
+! Steward: 
+| {{{field|Steward|values from category=Component Stewards}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+      <sha1>kec4m6hob28l1x75t2d55e2sx1ug2c7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
     <title>Template:ComponentSteward</title>
     <ns>10</ns>
     <id>78</id>
     <revision>
-      <id>306</id>
+      <id>307</id>
       <parentid>132</parentid>
-      <timestamp>2014-12-09T21:21:20Z</timestamp>
+      <timestamp>2014-12-09T21:48:16Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
