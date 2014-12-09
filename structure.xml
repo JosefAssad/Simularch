@@ -2460,15 +2460,16 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>160</id>
     <revision>
-      <id>277</id>
-      <timestamp>2014-12-07T19:06:17Z</timestamp>
+      <id>290</id>
+      <parentid>289</parentid>
+      <timestamp>2014-12-09T19:20:14Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;[[Category:Simularch]]&quot;</comment>
-      <text xml:space="preserve" bytes="22">[[Category:Simularch]]</text>
-      <sha1>b3l4mxihj52zrvaz3rrxzka1e0yo4zd</sha1>
+      <text xml:space="preserve" bytes="70">Uses the form [[Has default form::BAComponent]]
+[[Category:Simularch]]</text>
+      <sha1>iwfpcqh3q5ijl9c7dcryqhy5o51vsiy</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2579,6 +2580,272 @@ if a page with that name already exists, you will be sent to a form to edit that
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
       <sha1>f73shpdeefqdmaftwfgc5jjta814wb9</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Component Stewards</title>
+    <ns>14</ns>
+    <id>167</id>
+    <revision>
+      <id>291</id>
+      <timestamp>2014-12-09T19:20:57Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::ComponentSteward]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="75">Uses the form [[Has default form::ComponentSteward]]
+[[Category:Simularch]]</text>
+      <sha1>5b8z8cj2pm98rvsze5whggeg0nuhed6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Dependencies</title>
+    <ns>14</ns>
+    <id>168</id>
+    <revision>
+      <id>292</id>
+      <timestamp>2014-12-09T19:23:16Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::Dependency]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="69">Uses the form [[Has default form::Dependency]]
+[[Category:Simularch]]</text>
+      <sha1>7lzern6a9fn5i6efu31jnkv7k0pyd1p</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Dependency Versions</title>
+    <ns>14</ns>
+    <id>169</id>
+    <revision>
+      <id>293</id>
+      <timestamp>2014-12-09T19:23:54Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::DependencyVersion]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="76">Uses the form [[Has default form::DependencyVersion]]
+[[Category:Simularch]]</text>
+      <sha1>7qfwm1uguguiaek0zrey84plmlq8eea</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Deployed System Versions</title>
+    <ns>14</ns>
+    <id>170</id>
+    <revision>
+      <id>294</id>
+      <timestamp>2014-12-09T19:24:14Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::DeployedSystemVersion]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="80">Uses the form [[Has default form::DeployedSystemVersion]]
+[[Category:Simularch]]</text>
+      <sha1>pajezue4tzkbqrg9byfgi6a2bu15hhf</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:HLBA Components</title>
+    <ns>14</ns>
+    <id>171</id>
+    <revision>
+      <id>295</id>
+      <timestamp>2014-12-09T19:26:01Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::HLBAComponent]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="72">Uses the form [[Has default form::HLBAComponent]]
+[[Category:Simularch]]</text>
+      <sha1>ag9pcad9ellripah7683awfrqo0iltn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Infrastructure Facilities</title>
+    <ns>14</ns>
+    <id>172</id>
+    <revision>
+      <id>296</id>
+      <timestamp>2014-12-09T19:26:25Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::InfrastructureFacility]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="81">Uses the form [[Has default form::InfrastructureFacility]]
+[[Category:Simularch]]</text>
+      <sha1>rll8lezjr16bw6ke1zkevrpavnky6sl</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:License Versions</title>
+    <ns>14</ns>
+    <id>173</id>
+    <revision>
+      <id>297</id>
+      <timestamp>2014-12-09T19:26:59Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::LicenseVersion]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="73">Uses the form [[Has default form::LicenseVersion]]
+[[Category:Simularch]]</text>
+      <sha1>nvt0a7m3yqozsyrm3yy31yuqljvqn39</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Licenses</title>
+    <ns>14</ns>
+    <id>174</id>
+    <revision>
+      <id>298</id>
+      <timestamp>2014-12-09T19:27:32Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::License]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="66">Uses the form [[Has default form::License]]
+[[Category:Simularch]]</text>
+      <sha1>3k8ki3txujx25kpx2wpsii3ard1dtbg</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Organizational Units</title>
+    <ns>14</ns>
+    <id>175</id>
+    <revision>
+      <id>299</id>
+      <timestamp>2014-12-09T19:28:04Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::OrganizationalUnit]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="77">Uses the form [[Has default form::OrganizationalUnit]]
+[[Category:Simularch]]</text>
+      <sha1>235qvk3wnzamauv2fyeyxrv167vaq7b</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:SSOs</title>
+    <ns>14</ns>
+    <id>176</id>
+    <revision>
+      <id>300</id>
+      <timestamp>2014-12-09T19:30:08Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::SSO]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="62">Uses the form [[Has default form::SSO]]
+[[Category:Simularch]]</text>
+      <sha1>8mgdk28bzgwo190okgbxkmy2eqliahh</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Servers</title>
+    <ns>14</ns>
+    <id>177</id>
+    <revision>
+      <id>301</id>
+      <timestamp>2014-12-09T19:30:52Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::Server]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="65">Uses the form [[Has default form::Server]]
+[[Category:Simularch]]</text>
+      <sha1>c3l5x6elmoktmtlvvihzfx52ox8m9xu</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Standard Versions</title>
+    <ns>14</ns>
+    <id>179</id>
+    <revision>
+      <id>303</id>
+      <timestamp>2014-12-09T19:32:00Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::StandardVersion]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="74">Uses the form [[Has default form::StandardVersion]]
+[[Category:Simularch]]</text>
+      <sha1>fe74ipkji7plyhcb7wb16cr9d3l0y3x</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:System Versions</title>
+    <ns>14</ns>
+    <id>180</id>
+    <revision>
+      <id>304</id>
+      <timestamp>2014-12-09T19:32:34Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::SystemVersion]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="72">Uses the form [[Has default form::SystemVersion]]
+[[Category:Simularch]]</text>
+      <sha1>ekrb2dskw6urj0rg59f05iyx6y5jp8z</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Systems</title>
+    <ns>14</ns>
+    <id>7</id>
+    <revision>
+      <id>305</id>
+      <parentid>8</parentid>
+      <timestamp>2014-12-09T19:33:12Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="80">This category uses the form [[Has default form::System]].
+[[Category:Simularch]]</text>
+      <sha1>hu5zb0wmzxa9fgeqaux32fqrugea61i</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
