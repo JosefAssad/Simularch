@@ -2850,4 +2850,51 @@ if a page with that name already exists, you will be sent to a form to edit that
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>Template:ComponentSteward</title>
+    <ns>10</ns>
+    <id>78</id>
+    <revision>
+      <id>306</id>
+      <parentid>132</parentid>
+      <timestamp>2014-12-09T21:21:20Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="572">&lt;noinclude&gt;
+This is the &quot;ComponentSteward&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ComponentSteward
+|Name=
+|Email=
+|Phone=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+
+[[Category:Simularch]]
+
+&lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+! Full name
+| [[Component steward full name::{{{Name|}}}]] 
+|-
+! E-mail
+| [[Component steward email::{{{Email|}}}]] 
+|-
+! Phone
+| [[Component steward phone::{{{Phone|}}}]] 
+|-
+! 
+| {{#ask:[[Organizational unit steward::{{SUBJECTPAGENAME}}]]|format=list}}
+|}
+
+[[Category:Component Stewards]]
+&lt;/includeonly&gt;</text>
+      <sha1>qbeokh7irz9ynx83grhiwfasdq1aldy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
