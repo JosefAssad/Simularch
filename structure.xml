@@ -36,15 +36,17 @@
   <page>
     <title>Property:SSO has URL</title>
     <ns>102</ns>
-    <id>43</id>
+    <id>2</id>
     <revision>
-      <id>66</id>
-      <parentid>65</parentid>
-      <timestamp>2014-09-16T08:29:07Z</timestamp>
+      <id>3</id>
+      <parentid>2</parentid>
+      <timestamp>2014-12-10T19:38:34Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -56,15 +58,17 @@
   <page>
     <title>Property:Standard has SSO</title>
     <ns>102</ns>
-    <id>48</id>
+    <id>3</id>
     <revision>
-      <id>74</id>
-      <parentid>73</parentid>
-      <timestamp>2014-09-16T08:37:55Z</timestamp>
+      <id>5</id>
+      <parentid>4</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="133">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::SSO]].
 
 [[Category:Simularch]]</text>
@@ -76,15 +80,17 @@
   <page>
     <title>Template:Standard</title>
     <ns>10</ns>
-    <id>49</id>
+    <id>4</id>
     <revision>
-      <id>79</id>
-      <parentid>76</parentid>
-      <timestamp>2014-09-16T08:41:36Z</timestamp>
+      <id>7</id>
+      <parentid>6</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="417">&lt;noinclude&gt;
 This is the &quot;Standard&quot; template.
 It should be called in the following format:
@@ -113,15 +119,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:Standard</title>
     <ns>106</ns>
-    <id>50</id>
+    <id>5</id>
     <revision>
-      <id>78</id>
-      <parentid>77</parentid>
-      <timestamp>2014-09-16T08:40:59Z</timestamp>
+      <id>9</id>
+      <parentid>8</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="832">&lt;noinclude&gt;
 This is the &quot;Standard&quot; form.
 To create a page with this form, enter the page name below;
@@ -158,15 +166,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Standard version is instance of</title>
     <ns>102</ns>
-    <id>52</id>
+    <id>6</id>
     <revision>
-      <id>83</id>
-      <parentid>82</parentid>
-      <timestamp>2014-09-16T08:45:20Z</timestamp>
+      <id>11</id>
+      <parentid>10</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="138">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Standard]].
 
 [[Category:Simularch]]</text>
@@ -178,15 +188,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Standard version documentation URL</title>
     <ns>102</ns>
-    <id>53</id>
+    <id>7</id>
     <revision>
-      <id>85</id>
-      <parentid>84</parentid>
-      <timestamp>2014-09-16T08:47:59Z</timestamp>
+      <id>13</id>
+      <parentid>12</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -198,15 +210,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Standard version status</title>
     <ns>102</ns>
-    <id>54</id>
+    <id>8</id>
     <revision>
-      <id>87</id>
-      <parentid>86</parentid>
-      <timestamp>2014-09-16T08:52:43Z</timestamp>
+      <id>15</id>
+      <parentid>14</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="201">This is a property of type [[Has type::Text]].
 
 The allowed values for this property are:
@@ -224,15 +238,17 @@ The allowed values for this property are:
   <page>
     <title>Template:StandardVersion</title>
     <ns>10</ns>
-    <id>55</id>
+    <id>9</id>
     <revision>
-      <id>90</id>
-      <parentid>89</parentid>
-      <timestamp>2014-09-16T09:04:05Z</timestamp>
+      <id>17</id>
+      <parentid>16</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="574">&lt;noinclude&gt;
 This is the &quot;StandardVersion&quot; template.
 It should be called in the following format:
@@ -266,15 +282,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:StandardVersion</title>
     <ns>106</ns>
-    <id>56</id>
+    <id>10</id>
     <revision>
-      <id>92</id>
-      <parentid>91</parentid>
-      <timestamp>2014-09-16T09:05:43Z</timestamp>
+      <id>19</id>
+      <parentid>18</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="942">&lt;noinclude&gt;
 This is the &quot;StandardVersion&quot; form.
 To create a page with this form, enter the page name below;
@@ -317,15 +335,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Vendor from country</title>
     <ns>102</ns>
-    <id>58</id>
+    <id>11</id>
     <revision>
-      <id>95</id>
-      <parentid>94</parentid>
-      <timestamp>2014-12-06T21:03:01Z</timestamp>
+      <id>21</id>
+      <parentid>20</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -337,15 +357,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Vendor has URL</title>
     <ns>102</ns>
-    <id>59</id>
+    <id>12</id>
     <revision>
-      <id>97</id>
-      <parentid>96</parentid>
-      <timestamp>2014-12-06T21:07:11Z</timestamp>
+      <id>23</id>
+      <parentid>22</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -357,15 +379,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:Vendor</title>
     <ns>10</ns>
-    <id>60</id>
+    <id>13</id>
     <revision>
-      <id>99</id>
-      <parentid>98</parentid>
-      <timestamp>2014-12-06T22:46:57Z</timestamp>
+      <id>25</id>
+      <parentid>24</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="373">&lt;noinclude&gt;
 This is the &quot;Vendor&quot; template.
 It should be called in the following format:
@@ -395,15 +419,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:Vendor</title>
     <ns>106</ns>
-    <id>61</id>
+    <id>14</id>
     <revision>
-      <id>101</id>
-      <parentid>100</parentid>
-      <timestamp>2014-12-06T22:53:42Z</timestamp>
+      <id>27</id>
+      <parentid>26</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="801">&lt;noinclude&gt;
 This is the &quot;Vendor&quot; form.
 To create a page with this form, enter the page name below;
@@ -443,15 +469,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:License is commercial</title>
     <ns>102</ns>
-    <id>62</id>
+    <id>15</id>
     <revision>
-      <id>103</id>
-      <parentid>102</parentid>
-      <timestamp>2014-12-06T23:20:25Z</timestamp>
+      <id>29</id>
+      <parentid>28</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="73">This is a property of type [[Has type::Boolean]].
 
 [[Category:Simularch]]</text>
@@ -463,15 +491,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:License is OSI approved</title>
     <ns>102</ns>
-    <id>63</id>
+    <id>16</id>
     <revision>
-      <id>105</id>
-      <parentid>104</parentid>
-      <timestamp>2014-12-06T23:51:51Z</timestamp>
+      <id>31</id>
+      <parentid>30</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="73">This is a property of type [[Has type::Boolean]].
 
 [[Category:Simularch]]</text>
@@ -483,15 +513,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:License is described on URL</title>
     <ns>102</ns>
-    <id>64</id>
+    <id>17</id>
     <revision>
-      <id>107</id>
-      <parentid>106</parentid>
-      <timestamp>2014-12-07T00:12:34Z</timestamp>
+      <id>33</id>
+      <parentid>32</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -503,15 +535,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:License</title>
     <ns>10</ns>
-    <id>65</id>
+    <id>18</id>
     <revision>
-      <id>109</id>
-      <parentid>108</parentid>
-      <timestamp>2014-12-07T00:14:20Z</timestamp>
+      <id>35</id>
+      <parentid>34</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="505">&lt;noinclude&gt;
 This is the &quot;License&quot; template.
 It should be called in the following format:
@@ -545,15 +579,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:License</title>
     <ns>106</ns>
-    <id>66</id>
+    <id>19</id>
     <revision>
-      <id>111</id>
-      <parentid>110</parentid>
-      <timestamp>2014-12-07T00:15:00Z</timestamp>
+      <id>37</id>
+      <parentid>36</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="857">&lt;noinclude&gt;
 This is the &quot;License&quot; form.
 To create a page with this form, enter the page name below;
@@ -596,15 +632,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Parent organizational unit</title>
     <ns>102</ns>
-    <id>68</id>
+    <id>20</id>
     <revision>
-      <id>114</id>
-      <parentid>113</parentid>
-      <timestamp>2014-12-07T09:50:37Z</timestamp>
+      <id>39</id>
+      <parentid>38</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="148">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::OrganizationalUnit]].
 
 [[Category:Simularch]]</text>
@@ -616,15 +654,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Organizational unit steward</title>
     <ns>102</ns>
-    <id>69</id>
+    <id>21</id>
     <revision>
-      <id>116</id>
-      <parentid>115</parentid>
-      <timestamp>2014-12-07T09:51:25Z</timestamp>
+      <id>41</id>
+      <parentid>40</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
 
 [[Category:Simularch]]</text>
@@ -636,15 +676,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:OrganizationalUnit</title>
     <ns>10</ns>
-    <id>70</id>
+    <id>22</id>
     <revision>
-      <id>118</id>
-      <parentid>117</parentid>
-      <timestamp>2014-12-07T09:53:15Z</timestamp>
+      <id>43</id>
+      <parentid>42</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="448">&lt;noinclude&gt;
 This is the &quot;OrganizationalUnit&quot; template.
 It should be called in the following format:
@@ -674,15 +716,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:OrganizationalUnit</title>
     <ns>106</ns>
-    <id>71</id>
+    <id>23</id>
     <revision>
-      <id>125</id>
-      <parentid>123</parentid>
-      <timestamp>2014-12-07T10:01:07Z</timestamp>
+      <id>45</id>
+      <parentid>44</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="967">&lt;noinclude&gt;
 This is the &quot;OrganizationalUnit&quot; form.
 To create a page with this form, enter the page name below;
@@ -724,15 +768,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Component steward full name</title>
     <ns>102</ns>
-    <id>75</id>
+    <id>24</id>
     <revision>
-      <id>127</id>
-      <parentid>126</parentid>
-      <timestamp>2014-12-07T10:06:54Z</timestamp>
+      <id>47</id>
+      <parentid>46</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -744,15 +790,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Component steward email</title>
     <ns>102</ns>
-    <id>76</id>
+    <id>25</id>
     <revision>
-      <id>129</id>
-      <parentid>128</parentid>
-      <timestamp>2014-12-07T10:07:32Z</timestamp>
+      <id>49</id>
+      <parentid>48</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="71">This is a property of type [[Has type::Email]].
 
 [[Category:Simularch]]</text>
@@ -764,15 +812,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Component steward phone</title>
     <ns>102</ns>
-    <id>77</id>
+    <id>26</id>
     <revision>
-      <id>134</id>
-      <parentid>131</parentid>
-      <timestamp>2014-12-07T10:17:06Z</timestamp>
+      <id>51</id>
+      <parentid>50</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -784,15 +834,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Form:ComponentSteward</title>
     <ns>106</ns>
-    <id>80</id>
+    <id>27</id>
     <revision>
-      <id>137</id>
-      <parentid>136</parentid>
-      <timestamp>2014-12-07T10:20:32Z</timestamp>
+      <id>53</id>
+      <parentid>52</parentid>
+      <timestamp>2014-12-10T19:38:35Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="878">&lt;noinclude&gt;
 This is the &quot;ComponentSteward&quot; form.
 To create a page with this form, enter the page name below;
@@ -837,15 +889,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Server hostname</title>
     <ns>102</ns>
-    <id>81</id>
+    <id>28</id>
     <revision>
-      <id>139</id>
-      <parentid>138</parentid>
-      <timestamp>2014-12-07T10:53:45Z</timestamp>
+      <id>55</id>
+      <parentid>54</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -857,15 +911,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Server OS</title>
     <ns>102</ns>
-    <id>82</id>
+    <id>29</id>
     <revision>
-      <id>141</id>
-      <parentid>140</parentid>
-      <timestamp>2014-12-07T10:54:33Z</timestamp>
+      <id>57</id>
+      <parentid>56</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="147">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::DependencyVersion]].
 
 [[Category:Simularch]]</text>
@@ -877,15 +933,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Server steward</title>
     <ns>102</ns>
-    <id>83</id>
+    <id>30</id>
     <revision>
-      <id>143</id>
-      <parentid>142</parentid>
-      <timestamp>2014-12-07T10:55:08Z</timestamp>
+      <id>59</id>
+      <parentid>58</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
 
 [[Category:Simularch]]</text>
@@ -897,15 +955,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:Server</title>
     <ns>10</ns>
-    <id>84</id>
+    <id>31</id>
     <revision>
-      <id>145</id>
-      <parentid>144</parentid>
-      <timestamp>2014-12-07T10:57:22Z</timestamp>
+      <id>61</id>
+      <parentid>60</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="380">&lt;noinclude&gt;
 This is the &quot;Server&quot; template.
 It should be called in the following format:
@@ -937,15 +997,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:Server</title>
     <ns>106</ns>
-    <id>85</id>
+    <id>32</id>
     <revision>
-      <id>148</id>
-      <parentid>147</parentid>
-      <timestamp>2014-12-07T11:00:22Z</timestamp>
+      <id>63</id>
+      <parentid>62</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="880">&lt;noinclude&gt;
 This is the &quot;Server&quot; form.
 To create a page with this form, enter the page name below;
@@ -987,15 +1049,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Infrastructure facility uses servers</title>
     <ns>102</ns>
-    <id>87</id>
+    <id>33</id>
     <revision>
-      <id>151</id>
-      <parentid>150</parentid>
-      <timestamp>2014-12-07T11:09:35Z</timestamp>
+      <id>65</id>
+      <parentid>64</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="136">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Server]].
 
 [[Category:Simularch]]</text>
@@ -1007,15 +1071,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Infrastructure facility steward</title>
     <ns>102</ns>
-    <id>88</id>
+    <id>34</id>
     <revision>
-      <id>153</id>
-      <parentid>152</parentid>
-      <timestamp>2014-12-07T11:10:17Z</timestamp>
+      <id>67</id>
+      <parentid>66</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
 
 [[Category:Simularch]]</text>
@@ -1027,15 +1093,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:InfrastructureFacility</title>
     <ns>10</ns>
-    <id>89</id>
+    <id>35</id>
     <revision>
-      <id>155</id>
-      <parentid>154</parentid>
-      <timestamp>2014-12-07T11:11:54Z</timestamp>
+      <id>69</id>
+      <parentid>68</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="495">&lt;noinclude&gt;
 This is the &quot;InfrastructureFacility&quot; template.
 It should be called in the following format:
@@ -1067,15 +1135,17 @@ Edit the page to see the template text.
   <page>
     <title>Property:Is version of license</title>
     <ns>102</ns>
-    <id>95</id>
+    <id>36</id>
     <revision>
-      <id>162</id>
-      <parentid>161</parentid>
-      <timestamp>2014-12-07T11:52:08Z</timestamp>
+      <id>71</id>
+      <parentid>70</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="137">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::License]].
 
 [[Category:Simularch]]</text>
@@ -1087,15 +1157,17 @@ Edit the page to see the template text.
   <page>
     <title>Property:URL of full license text</title>
     <ns>102</ns>
-    <id>96</id>
+    <id>37</id>
     <revision>
-      <id>164</id>
-      <parentid>163</parentid>
-      <timestamp>2014-12-07T11:53:00Z</timestamp>
+      <id>73</id>
+      <parentid>72</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -1107,15 +1179,17 @@ Edit the page to see the template text.
   <page>
     <title>Property:License version identifier</title>
     <ns>102</ns>
-    <id>97</id>
+    <id>38</id>
     <revision>
-      <id>166</id>
-      <parentid>165</parentid>
-      <timestamp>2014-12-07T11:53:48Z</timestamp>
+      <id>75</id>
+      <parentid>74</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -1127,15 +1201,17 @@ Edit the page to see the template text.
   <page>
     <title>Property:License version precedent</title>
     <ns>102</ns>
-    <id>98</id>
+    <id>39</id>
     <revision>
-      <id>168</id>
-      <parentid>167</parentid>
-      <timestamp>2014-12-07T11:56:12Z</timestamp>
+      <id>77</id>
+      <parentid>76</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="144">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::LicenseVersion]].
 
 [[Category:Simularch]]</text>
@@ -1147,15 +1223,17 @@ Edit the page to see the template text.
   <page>
     <title>Template:LicenseVersion</title>
     <ns>10</ns>
-    <id>99</id>
+    <id>40</id>
     <revision>
-      <id>170</id>
-      <parentid>169</parentid>
-      <timestamp>2014-12-07T12:00:51Z</timestamp>
+      <id>79</id>
+      <parentid>78</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="609">&lt;noinclude&gt;
 This is the &quot;LicenseVersion&quot; template.
 It should be called in the following format:
@@ -1195,15 +1273,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:LicenseVersion</title>
     <ns>106</ns>
-    <id>100</id>
+    <id>41</id>
     <revision>
-      <id>174</id>
-      <parentid>173</parentid>
-      <timestamp>2014-12-07T12:04:17Z</timestamp>
+      <id>81</id>
+      <parentid>80</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="1029">&lt;noinclude&gt;
 This is the &quot;LicenseVersion&quot; form.
 To create a page with this form, enter the page name below;
@@ -1251,15 +1331,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:BA component one line description</title>
     <ns>102</ns>
-    <id>104</id>
+    <id>42</id>
     <revision>
-      <id>179</id>
-      <parentid>178</parentid>
-      <timestamp>2014-12-07T12:31:02Z</timestamp>
+      <id>83</id>
+      <parentid>82</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -1271,15 +1353,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:HLBA component</title>
     <ns>102</ns>
-    <id>105</id>
+    <id>43</id>
     <revision>
-      <id>181</id>
-      <parentid>180</parentid>
-      <timestamp>2014-12-07T12:31:50Z</timestamp>
+      <id>85</id>
+      <parentid>84</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="143">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::HLBAComponent]].
 
 [[Category:Simularch]]</text>
@@ -1291,15 +1375,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:BAComponent</title>
     <ns>10</ns>
-    <id>106</id>
+    <id>44</id>
     <revision>
-      <id>183</id>
-      <parentid>182</parentid>
-      <timestamp>2014-12-07T12:36:22Z</timestamp>
+      <id>87</id>
+      <parentid>86</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="467">&lt;noinclude&gt;
 This is the &quot;BAComponent&quot; template.
 It should be called in the following format:
@@ -1331,15 +1417,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:BAComponent</title>
     <ns>106</ns>
-    <id>107</id>
+    <id>45</id>
     <revision>
-      <id>185</id>
-      <parentid>184</parentid>
-      <timestamp>2014-12-07T12:37:50Z</timestamp>
+      <id>89</id>
+      <parentid>88</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="899">&lt;noinclude&gt;
 This is the &quot;BAComponent&quot; form.
 To create a page with this form, enter the page name below;
@@ -1381,15 +1469,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:HLBA component description</title>
     <ns>102</ns>
-    <id>108</id>
+    <id>46</id>
     <revision>
-      <id>187</id>
-      <parentid>186</parentid>
-      <timestamp>2014-12-07T12:38:35Z</timestamp>
+      <id>91</id>
+      <parentid>90</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -1401,15 +1491,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:HLBAComponent</title>
     <ns>10</ns>
-    <id>109</id>
+    <id>47</id>
     <revision>
-      <id>189</id>
-      <parentid>188</parentid>
-      <timestamp>2014-12-07T12:44:51Z</timestamp>
+      <id>93</id>
+      <parentid>92</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="367">&lt;noinclude&gt;
 This is the &quot;HLBAComponent&quot; template.
 It should be called in the following format:
@@ -1437,15 +1529,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:HLBAComponent</title>
     <ns>106</ns>
-    <id>110</id>
+    <id>48</id>
     <revision>
-      <id>191</id>
-      <parentid>190</parentid>
-      <timestamp>2014-12-07T12:45:38Z</timestamp>
+      <id>95</id>
+      <parentid>94</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="803">&lt;noinclude&gt;
 This is the &quot;HLBAComponent&quot; form.
 To create a page with this form, enter the page name below;
@@ -1484,15 +1578,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Dependency from vendor</title>
     <ns>102</ns>
-    <id>121</id>
+    <id>49</id>
     <revision>
-      <id>206</id>
-      <parentid>205</parentid>
-      <timestamp>2014-12-07T16:45:24Z</timestamp>
+      <id>97</id>
+      <parentid>96</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="136">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Vendor]].
 
 [[Category:Simularch]]</text>
@@ -1504,15 +1600,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Dependency classification</title>
     <ns>102</ns>
-    <id>122</id>
+    <id>50</id>
     <revision>
-      <id>208</id>
-      <parentid>207</parentid>
-      <timestamp>2014-12-07T16:46:24Z</timestamp>
+      <id>99</id>
+      <parentid>98</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -1524,15 +1622,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:Dependency</title>
     <ns>10</ns>
-    <id>123</id>
+    <id>51</id>
     <revision>
-      <id>210</id>
-      <parentid>209</parentid>
-      <timestamp>2014-12-07T16:47:36Z</timestamp>
+      <id>101</id>
+      <parentid>100</parentid>
+      <timestamp>2014-12-10T19:38:36Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="451">&lt;noinclude&gt;
 This is the &quot;Dependency&quot; template.
 It should be called in the following format:
@@ -1564,15 +1664,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:Dependency</title>
     <ns>106</ns>
-    <id>124</id>
+    <id>52</id>
     <revision>
-      <id>212</id>
-      <parentid>211</parentid>
-      <timestamp>2014-12-07T16:50:54Z</timestamp>
+      <id>103</id>
+      <parentid>102</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="900">&lt;noinclude&gt;
 This is the &quot;Dependency&quot; form.
 To create a page with this form, enter the page name below;
@@ -1614,15 +1716,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Is version of dependency</title>
     <ns>102</ns>
-    <id>126</id>
+    <id>53</id>
     <revision>
-      <id>215</id>
-      <parentid>214</parentid>
-      <timestamp>2014-12-07T16:58:06Z</timestamp>
+      <id>105</id>
+      <parentid>104</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="140">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Dependency]].
 
 [[Category:Simularch]]</text>
@@ -1634,15 +1738,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Dependency version has license</title>
     <ns>102</ns>
-    <id>127</id>
+    <id>54</id>
     <revision>
-      <id>217</id>
-      <parentid>216</parentid>
-      <timestamp>2014-12-07T17:00:00Z</timestamp>
+      <id>107</id>
+      <parentid>106</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="144">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::LicenseVersion]].
 
 [[Category:Simularch]]</text>
@@ -1654,15 +1760,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Dependency version has dependency</title>
     <ns>102</ns>
-    <id>128</id>
+    <id>55</id>
     <revision>
-      <id>219</id>
-      <parentid>218</parentid>
-      <timestamp>2014-12-07T17:07:27Z</timestamp>
+      <id>109</id>
+      <parentid>108</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="147">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::DependencyVersion]].
 
 [[Category:Simularch]]</text>
@@ -1674,15 +1782,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Dependency version implements</title>
     <ns>102</ns>
-    <id>129</id>
+    <id>56</id>
     <revision>
-      <id>221</id>
-      <parentid>220</parentid>
-      <timestamp>2014-12-07T17:08:06Z</timestamp>
+      <id>111</id>
+      <parentid>110</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="145">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::StandardVersion]].
 
 [[Category:Simularch]]</text>
@@ -1694,15 +1804,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:DependencyVersion</title>
     <ns>10</ns>
-    <id>131</id>
+    <id>57</id>
     <revision>
-      <id>224</id>
-      <parentid>223</parentid>
-      <timestamp>2014-12-07T17:14:04Z</timestamp>
+      <id>113</id>
+      <parentid>112</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="680">&lt;noinclude&gt;
 This is the &quot;DependencyVersion&quot; template.
 It should be called in the following format:
@@ -1742,15 +1854,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:DependencyVersion</title>
     <ns>106</ns>
-    <id>132</id>
+    <id>58</id>
     <revision>
-      <id>226</id>
-      <parentid>225</parentid>
-      <timestamp>2014-12-07T17:16:00Z</timestamp>
+      <id>115</id>
+      <parentid>114</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="1132">&lt;noinclude&gt;
 This is the &quot;DependencyVersion&quot; form.
 To create a page with this form, enter the page name below;
@@ -1798,15 +1912,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System is member of BA component</title>
     <ns>102</ns>
-    <id>133</id>
+    <id>59</id>
     <revision>
-      <id>228</id>
-      <parentid>227</parentid>
-      <timestamp>2014-12-07T17:48:12Z</timestamp>
+      <id>117</id>
+      <parentid>116</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="141">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::BAComponent]].
 
 [[Category:Simularch]]</text>
@@ -1818,15 +1934,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:System</title>
     <ns>10</ns>
-    <id>134</id>
+    <id>60</id>
     <revision>
-      <id>230</id>
-      <parentid>229</parentid>
-      <timestamp>2014-12-07T17:49:16Z</timestamp>
+      <id>119</id>
+      <parentid>118</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="352">&lt;noinclude&gt;
 This is the &quot;System&quot; template.
 It should be called in the following format:
@@ -1854,15 +1972,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:System</title>
     <ns>106</ns>
-    <id>135</id>
+    <id>61</id>
     <revision>
-      <id>232</id>
-      <parentid>231</parentid>
-      <timestamp>2014-12-07T17:50:14Z</timestamp>
+      <id>121</id>
+      <parentid>120</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="837">&lt;noinclude&gt;
 This is the &quot;System&quot; form.
 To create a page with this form, enter the page name below;
@@ -1901,15 +2021,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version deployed</title>
     <ns>102</ns>
-    <id>137</id>
+    <id>62</id>
     <revision>
-      <id>235</id>
-      <parentid>234</parentid>
-      <timestamp>2014-12-07T18:05:14Z</timestamp>
+      <id>123</id>
+      <parentid>122</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="143">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::SystemVersion]].
 
 [[Category:Simularch]]</text>
@@ -1921,15 +2043,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Infrastructure facility used</title>
     <ns>102</ns>
-    <id>138</id>
+    <id>63</id>
     <revision>
-      <id>237</id>
-      <parentid>236</parentid>
-      <timestamp>2014-12-07T18:05:47Z</timestamp>
+      <id>125</id>
+      <parentid>124</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="152">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::InfrastructureFacility]].
 
 [[Category:Simularch]]</text>
@@ -1941,15 +2065,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Organizational unit served</title>
     <ns>102</ns>
-    <id>139</id>
+    <id>64</id>
     <revision>
-      <id>239</id>
-      <parentid>238</parentid>
-      <timestamp>2014-12-07T18:06:22Z</timestamp>
+      <id>127</id>
+      <parentid>126</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="148">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::OrganizationalUnit]].
 
 [[Category:Simularch]]</text>
@@ -1961,15 +2087,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:DeployedSystemVersion</title>
     <ns>10</ns>
-    <id>140</id>
+    <id>65</id>
     <revision>
-      <id>241</id>
-      <parentid>240</parentid>
-      <timestamp>2014-12-07T18:08:28Z</timestamp>
+      <id>129</id>
+      <parentid>128</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="662">&lt;noinclude&gt;
 This is the &quot;DeployedSystemVersion&quot; template.
 It should be called in the following format:
@@ -2005,15 +2133,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:DeployedSystemVersion</title>
     <ns>106</ns>
-    <id>141</id>
+    <id>66</id>
     <revision>
-      <id>243</id>
-      <parentid>242</parentid>
-      <timestamp>2014-12-07T18:10:00Z</timestamp>
+      <id>131</id>
+      <parentid>130</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="1103">&lt;noinclude&gt;
 This is the &quot;DeployedSystemVersion&quot; form.
 To create a page with this form, enter the page name below;
@@ -2058,15 +2188,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:Is version of system</title>
     <ns>102</ns>
-    <id>143</id>
+    <id>67</id>
     <revision>
-      <id>246</id>
-      <parentid>245</parentid>
-      <timestamp>2014-12-07T18:22:05Z</timestamp>
+      <id>133</id>
+      <parentid>132</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="136">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::System]].
 
 [[Category:Simularch]]</text>
@@ -2078,15 +2210,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version identifier</title>
     <ns>102</ns>
-    <id>144</id>
+    <id>68</id>
     <revision>
-      <id>248</id>
-      <parentid>247</parentid>
-      <timestamp>2014-12-07T18:23:43Z</timestamp>
+      <id>135</id>
+      <parentid>134</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -2098,15 +2232,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version precedent</title>
     <ns>102</ns>
-    <id>145</id>
+    <id>69</id>
     <revision>
-      <id>250</id>
-      <parentid>249</parentid>
-      <timestamp>2014-12-07T18:24:20Z</timestamp>
+      <id>137</id>
+      <parentid>136</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="143">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::SystemVersion]].
 
 [[Category:Simularch]]</text>
@@ -2118,15 +2254,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version is latest</title>
     <ns>102</ns>
-    <id>146</id>
+    <id>70</id>
     <revision>
-      <id>252</id>
-      <parentid>251</parentid>
-      <timestamp>2014-12-07T18:24:55Z</timestamp>
+      <id>139</id>
+      <parentid>138</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="73">This is a property of type [[Has type::Boolean]].
 
 [[Category:Simularch]]</text>
@@ -2138,15 +2276,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version license</title>
     <ns>102</ns>
-    <id>147</id>
+    <id>71</id>
     <revision>
-      <id>254</id>
-      <parentid>253</parentid>
-      <timestamp>2014-12-07T18:30:05Z</timestamp>
+      <id>141</id>
+      <parentid>140</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="144">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::LicenseVersion]].
 
 [[Category:Simularch]]</text>
@@ -2158,15 +2298,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version release date</title>
     <ns>102</ns>
-    <id>148</id>
+    <id>72</id>
     <revision>
-      <id>256</id>
-      <parentid>255</parentid>
-      <timestamp>2014-12-07T18:30:36Z</timestamp>
+      <id>143</id>
+      <parentid>142</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Date]].
 
 [[Category:Simularch]]</text>
@@ -2178,15 +2320,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version documentation URL</title>
     <ns>102</ns>
-    <id>149</id>
+    <id>73</id>
     <revision>
-      <id>258</id>
-      <parentid>257</parentid>
-      <timestamp>2014-12-07T18:32:34Z</timestamp>
+      <id>145</id>
+      <parentid>144</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -2198,15 +2342,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version source code URL</title>
     <ns>102</ns>
-    <id>150</id>
+    <id>74</id>
     <revision>
-      <id>260</id>
-      <parentid>259</parentid>
-      <timestamp>2014-12-07T18:33:08Z</timestamp>
+      <id>147</id>
+      <parentid>146</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">This is a property of type [[Has type::URL]].
 
 [[Category:Simularch]]</text>
@@ -2218,15 +2364,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version dependencies</title>
     <ns>102</ns>
-    <id>151</id>
+    <id>75</id>
     <revision>
-      <id>262</id>
-      <parentid>261</parentid>
-      <timestamp>2014-12-07T18:35:32Z</timestamp>
+      <id>149</id>
+      <parentid>148</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="147">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::DependencyVersion]].
 
 [[Category:Simularch]]</text>
@@ -2238,15 +2386,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version is from vendor</title>
     <ns>102</ns>
-    <id>152</id>
+    <id>76</id>
     <revision>
-      <id>264</id>
-      <parentid>263</parentid>
-      <timestamp>2014-12-07T18:36:05Z</timestamp>
+      <id>151</id>
+      <parentid>150</parentid>
+      <timestamp>2014-12-10T19:38:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="136">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Vendor]].
 
 [[Category:Simularch]]</text>
@@ -2258,15 +2408,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version implements</title>
     <ns>102</ns>
-    <id>153</id>
+    <id>77</id>
     <revision>
-      <id>266</id>
-      <parentid>265</parentid>
-      <timestamp>2014-12-07T18:36:37Z</timestamp>
+      <id>153</id>
+      <parentid>152</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="145">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::StandardVersion]].
 
 [[Category:Simularch]]</text>
@@ -2278,15 +2430,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:System version steward</title>
     <ns>102</ns>
-    <id>154</id>
+    <id>78</id>
     <revision>
-      <id>268</id>
-      <parentid>267</parentid>
-      <timestamp>2014-12-07T18:37:06Z</timestamp>
+      <id>155</id>
+      <parentid>154</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="146">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::ComponentSteward]].
 
 [[Category:Simularch]]</text>
@@ -2298,15 +2452,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:SystemVersion</title>
     <ns>10</ns>
-    <id>155</id>
+    <id>79</id>
     <revision>
-      <id>270</id>
-      <parentid>269</parentid>
-      <timestamp>2014-12-07T18:43:54Z</timestamp>
+      <id>157</id>
+      <parentid>156</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="1273">&lt;noinclude&gt;
 This is the &quot;SystemVersion&quot; template.
 It should be called in the following format:
@@ -2378,15 +2534,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:SystemVersion</title>
     <ns>106</ns>
-    <id>157</id>
+    <id>80</id>
     <revision>
-      <id>275</id>
-      <parentid>273</parentid>
-      <timestamp>2014-12-07T18:53:09Z</timestamp>
+      <id>159</id>
+      <parentid>158</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="1589">&lt;noinclude&gt;
 This is the &quot;SystemVersion&quot; form.
 To create a page with this form, enter the page name below;
@@ -2458,15 +2616,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:BA Components</title>
     <ns>14</ns>
-    <id>160</id>
+    <id>81</id>
     <revision>
-      <id>290</id>
-      <parentid>289</parentid>
-      <timestamp>2014-12-09T19:20:14Z</timestamp>
+      <id>161</id>
+      <parentid>160</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">Uses the form [[Has default form::BAComponent]]
 [[Category:Simularch]]</text>
       <sha1>iwfpcqh3q5ijl9c7dcryqhy5o51vsiy</sha1>
@@ -2477,15 +2637,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Property:SSO friendly name</title>
     <ns>102</ns>
-    <id>161</id>
+    <id>82</id>
     <revision>
-      <id>279</id>
-      <parentid>278</parentid>
-      <timestamp>2014-12-09T10:01:45Z</timestamp>
+      <id>163</id>
+      <parentid>162</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="70">This is a property of type [[Has type::Text]].
 
 [[Category:Simularch]]</text>
@@ -2497,15 +2659,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:SSO</title>
     <ns>10</ns>
-    <id>162</id>
+    <id>83</id>
     <revision>
-      <id>281</id>
-      <parentid>280</parentid>
-      <timestamp>2014-12-09T10:04:04Z</timestamp>
+      <id>165</id>
+      <parentid>164</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="361">&lt;noinclude&gt;
 This is the &quot;SSO&quot; template.
 It should be called in the following format:
@@ -2537,15 +2701,17 @@ Edit the page to see the template text.
   <page>
     <title>Form:SSO</title>
     <ns>106</ns>
-    <id>163</id>
+    <id>84</id>
     <revision>
-      <id>284</id>
-      <parentid>283</parentid>
-      <timestamp>2014-12-09T10:05:43Z</timestamp>
+      <id>167</id>
+      <parentid>166</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="804">&lt;noinclude&gt;
 This is the &quot;SSO&quot; form.
 To create a page with this form, enter the page name below;
@@ -2587,15 +2753,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Component Stewards</title>
     <ns>14</ns>
-    <id>167</id>
+    <id>85</id>
     <revision>
-      <id>291</id>
-      <timestamp>2014-12-09T19:20:57Z</timestamp>
+      <id>169</id>
+      <parentid>168</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::ComponentSteward]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="75">Uses the form [[Has default form::ComponentSteward]]
 [[Category:Simularch]]</text>
       <sha1>5b8z8cj2pm98rvsze5whggeg0nuhed6</sha1>
@@ -2606,15 +2774,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Dependencies</title>
     <ns>14</ns>
-    <id>168</id>
+    <id>86</id>
     <revision>
-      <id>292</id>
-      <timestamp>2014-12-09T19:23:16Z</timestamp>
+      <id>171</id>
+      <parentid>170</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::Dependency]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="69">Uses the form [[Has default form::Dependency]]
 [[Category:Simularch]]</text>
       <sha1>7lzern6a9fn5i6efu31jnkv7k0pyd1p</sha1>
@@ -2625,15 +2795,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Dependency Versions</title>
     <ns>14</ns>
-    <id>169</id>
+    <id>87</id>
     <revision>
-      <id>293</id>
-      <timestamp>2014-12-09T19:23:54Z</timestamp>
+      <id>173</id>
+      <parentid>172</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::DependencyVersion]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="76">Uses the form [[Has default form::DependencyVersion]]
 [[Category:Simularch]]</text>
       <sha1>7qfwm1uguguiaek0zrey84plmlq8eea</sha1>
@@ -2644,15 +2816,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Deployed System Versions</title>
     <ns>14</ns>
-    <id>170</id>
+    <id>88</id>
     <revision>
-      <id>294</id>
-      <timestamp>2014-12-09T19:24:14Z</timestamp>
+      <id>175</id>
+      <parentid>174</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::DeployedSystemVersion]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="80">Uses the form [[Has default form::DeployedSystemVersion]]
 [[Category:Simularch]]</text>
       <sha1>pajezue4tzkbqrg9byfgi6a2bu15hhf</sha1>
@@ -2663,15 +2837,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:HLBA Components</title>
     <ns>14</ns>
-    <id>171</id>
+    <id>89</id>
     <revision>
-      <id>295</id>
-      <timestamp>2014-12-09T19:26:01Z</timestamp>
+      <id>177</id>
+      <parentid>176</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::HLBAComponent]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="72">Uses the form [[Has default form::HLBAComponent]]
 [[Category:Simularch]]</text>
       <sha1>ag9pcad9ellripah7683awfrqo0iltn</sha1>
@@ -2682,15 +2858,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Infrastructure Facilities</title>
     <ns>14</ns>
-    <id>172</id>
+    <id>90</id>
     <revision>
-      <id>296</id>
-      <timestamp>2014-12-09T19:26:25Z</timestamp>
+      <id>179</id>
+      <parentid>178</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::InfrastructureFacility]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="81">Uses the form [[Has default form::InfrastructureFacility]]
 [[Category:Simularch]]</text>
       <sha1>rll8lezjr16bw6ke1zkevrpavnky6sl</sha1>
@@ -2701,15 +2879,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:License Versions</title>
     <ns>14</ns>
-    <id>173</id>
+    <id>91</id>
     <revision>
-      <id>297</id>
-      <timestamp>2014-12-09T19:26:59Z</timestamp>
+      <id>181</id>
+      <parentid>180</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::LicenseVersion]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="73">Uses the form [[Has default form::LicenseVersion]]
 [[Category:Simularch]]</text>
       <sha1>nvt0a7m3yqozsyrm3yy31yuqljvqn39</sha1>
@@ -2720,15 +2900,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Licenses</title>
     <ns>14</ns>
-    <id>174</id>
+    <id>92</id>
     <revision>
-      <id>298</id>
-      <timestamp>2014-12-09T19:27:32Z</timestamp>
+      <id>183</id>
+      <parentid>182</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::License]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="66">Uses the form [[Has default form::License]]
 [[Category:Simularch]]</text>
       <sha1>3k8ki3txujx25kpx2wpsii3ard1dtbg</sha1>
@@ -2739,15 +2921,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Organizational Units</title>
     <ns>14</ns>
-    <id>175</id>
+    <id>93</id>
     <revision>
-      <id>299</id>
-      <timestamp>2014-12-09T19:28:04Z</timestamp>
+      <id>185</id>
+      <parentid>184</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::OrganizationalUnit]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="77">Uses the form [[Has default form::OrganizationalUnit]]
 [[Category:Simularch]]</text>
       <sha1>235qvk3wnzamauv2fyeyxrv167vaq7b</sha1>
@@ -2758,15 +2942,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:SSOs</title>
     <ns>14</ns>
-    <id>176</id>
+    <id>94</id>
     <revision>
-      <id>300</id>
-      <timestamp>2014-12-09T19:30:08Z</timestamp>
+      <id>187</id>
+      <parentid>186</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::SSO]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="62">Uses the form [[Has default form::SSO]]
 [[Category:Simularch]]</text>
       <sha1>8mgdk28bzgwo190okgbxkmy2eqliahh</sha1>
@@ -2777,15 +2963,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Servers</title>
     <ns>14</ns>
-    <id>177</id>
+    <id>95</id>
     <revision>
-      <id>301</id>
-      <timestamp>2014-12-09T19:30:52Z</timestamp>
+      <id>189</id>
+      <parentid>188</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::Server]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="65">Uses the form [[Has default form::Server]]
 [[Category:Simularch]]</text>
       <sha1>c3l5x6elmoktmtlvvihzfx52ox8m9xu</sha1>
@@ -2796,15 +2984,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Standard Versions</title>
     <ns>14</ns>
-    <id>179</id>
+    <id>96</id>
     <revision>
-      <id>303</id>
-      <timestamp>2014-12-09T19:32:00Z</timestamp>
+      <id>191</id>
+      <parentid>190</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::StandardVersion]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="74">Uses the form [[Has default form::StandardVersion]]
 [[Category:Simularch]]</text>
       <sha1>fe74ipkji7plyhcb7wb16cr9d3l0y3x</sha1>
@@ -2815,15 +3005,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:System Versions</title>
     <ns>14</ns>
-    <id>180</id>
+    <id>97</id>
     <revision>
-      <id>304</id>
-      <timestamp>2014-12-09T19:32:34Z</timestamp>
+      <id>193</id>
+      <parentid>192</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::SystemVersion]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="72">Uses the form [[Has default form::SystemVersion]]
 [[Category:Simularch]]</text>
       <sha1>ekrb2dskw6urj0rg59f05iyx6y5jp8z</sha1>
@@ -2834,15 +3026,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Category:Systems</title>
     <ns>14</ns>
-    <id>7</id>
+    <id>98</id>
     <revision>
-      <id>305</id>
-      <parentid>8</parentid>
-      <timestamp>2014-12-09T19:33:12Z</timestamp>
+      <id>195</id>
+      <parentid>194</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="80">This category uses the form [[Has default form::System]].
 [[Category:Simularch]]</text>
       <sha1>hu5zb0wmzxa9fgeqaux32fqrugea61i</sha1>
@@ -2853,15 +3047,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Form:InfrastructureFacility</title>
     <ns>106</ns>
-    <id>91</id>
+    <id>99</id>
     <revision>
-      <id>306</id>
-      <parentid>157</parentid>
-      <timestamp>2014-12-09T21:44:39Z</timestamp>
+      <id>197</id>
+      <parentid>196</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="928">&lt;noinclude&gt;
 This is the &quot;InfrastructureFacility&quot; form.
 To create a page with this form, enter the page name below;
@@ -2903,15 +3099,17 @@ if a page with that name already exists, you will be sent to a form to edit that
   <page>
     <title>Template:ComponentSteward</title>
     <ns>10</ns>
-    <id>78</id>
+    <id>100</id>
     <revision>
-      <id>307</id>
-      <parentid>132</parentid>
-      <timestamp>2014-12-09T21:48:16Z</timestamp>
+      <id>199</id>
+      <parentid>198</parentid>
+      <timestamp>2014-12-10T19:38:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="572">&lt;noinclude&gt;
 This is the &quot;ComponentSteward&quot; template.
 It should be called in the following format:
@@ -2943,6 +3141,44 @@ Edit the page to see the template text.
 [[Category:Component Stewards]]
 &lt;/includeonly&gt;</text>
       <sha1>qbeokh7irz9ynx83grhiwfasdq1aldy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Vendors</title>
+    <ns>14</ns>
+    <id>737</id>
+    <revision>
+      <id>846</id>
+      <timestamp>2014-12-10T19:55:44Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::Vendor]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="65">Uses the form [[Has default form::Vendor]]
+[[Category:Simularch]]</text>
+      <sha1>oc4aoinek97qh0699a688n7eqb20ktq</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Standards</title>
+    <ns>14</ns>
+    <id>738</id>
+    <revision>
+      <id>847</id>
+      <timestamp>2014-12-10T19:56:11Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <comment>Created page with &quot;Uses the form [[Has default form::Standard]] [[Category:Simularch]]&quot;</comment>
+      <text xml:space="preserve" bytes="67">Uses the form [[Has default form::Standard]]
+[[Category:Simularch]]</text>
+      <sha1>a5jpo1r3uc89c44qjhcl3vum289i5jg</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
