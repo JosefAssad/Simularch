@@ -1207,7 +1207,7 @@ def gen_Vendors(n):
     counter = 0
     list_of_vendors = []
     f = open(csv_dir+'Vendors.csv', 'w')
-    f.write('Title,Vendor[Country],Vendor[Url],Free Text\n')
+    f.write('Title,Vendor[Country],Vendor[URL],Free Text\n')
     while counter < n:
         country = random.choice(countries)['name']
         title = random.choice(vendor_names)
