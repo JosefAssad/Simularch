@@ -8262,7 +8262,7 @@ def gen_DependencyVersions(n):
     f = open(csv_dir+'DependencyVersions.csv', 'w')
     list_of_dependencyversions = []
     counter = 0
-    f.write('Title,DependencyVersion[License],DependencyVersion[Dependencies],DependencyVersion[Implements],Free Text\n')
+    f.write('Title,DependencyVersion[Dependency],DependencyVersion[License],DependencyVersion[Dependencies],DependencyVersion[Implements],Free Text\n')
     while counter < n:
         dependency = random.choice(titles['Dependencies'])
         version = genversionstring()
@@ -8277,7 +8277,7 @@ def gen_DependencyVersions(n):
         implements = random.choice(titles['StandardVersions'])
         for i in xrange(1, random.randint(1, 4)):
             implements += ','+random.choice(titles['StandardVersions'])
-        f.write('"'+title+'","'+license+'","'+dependencies+'","'+implements+'",[[Category:SimularchDEMO]]\n')
+        f.write('"'+title+'","'+dependency+'","'+license+'","'+dependencies+'","'+implements+'",[[Category:SimularchDEMO]]\n')
         counter += 1
     f.close()
     titles['DependencyVersions'] = list_of_dependencyversions
@@ -8304,13 +8304,14 @@ def gen_Servers(n):
     f = open(csv_dir+'Servers.csv', 'w')
     list_of_servers = []
     counter = 0
-    f.write('Title,Server[Hostname],Server[OS],Free Text\n')
+    f.write('Title,Server[Hostname],Server[OS],Server[Steward],Free Text\n')
     while counter < n:
         title = 'server-'+str(random.randint(1,100))
         list_of_servers.append(title)
         hostname = random.choice(hostnames)
         os = random.choice(titles['DependencyVersions'])
-        f.write('"'+title+'","'+hostname+'","'+os+'",[[Category:SimularchDEMO]]\n')
+        steward = random.choice(titles['ComponentStewards'])
+        f.write('"'+title+'","'+hostname+'","'+os+'","'+steward+'","'+'",[[Category:SimularchDEMO]]\n')
         counter += 1
     f.close()
     titles['Servers'] = list_of_servers
