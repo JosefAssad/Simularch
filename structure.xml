@@ -40,7 +40,7 @@
     <revision>
       <id>3</id>
       <parentid>2</parentid>
-      <timestamp>2014-12-10T19:38:34Z</timestamp>
+      <timestamp>2014-12-10T20:21:54Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -62,7 +62,7 @@
     <revision>
       <id>5</id>
       <parentid>4</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:54Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -82,16 +82,14 @@
     <ns>10</ns>
     <id>4</id>
     <revision>
-      <id>7</id>
-      <parentid>6</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <id>850</id>
+      <parentid>7</parentid>
+      <timestamp>2014-12-10T20:57:32Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="417">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="437">&lt;noinclude&gt;
 This is the &quot;Standard&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -105,13 +103,13 @@ Edit the page to see the template text.
 ! SSO
 | [[Standard has SSO::{{{StandardSSO|}}}]] 
 |-
-! 
+! Versions of standard
 | {{#ask:[[Standard version is instance of::{{SUBJECTPAGENAME}}]]|format=list}}
 |}
 
 [[Category:Standards]]
 &lt;/includeonly&gt;</text>
-      <sha1>097mp8a22inmp8ajthg96gy3yohip6y</sha1>
+      <sha1>qi0yzi3k0oc21g3onvwwwrl38x2p42s</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -123,7 +121,7 @@ Edit the page to see the template text.
     <revision>
       <id>9</id>
       <parentid>8</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:54Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -170,7 +168,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>11</id>
       <parentid>10</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:54Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -192,7 +190,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>13</id>
       <parentid>12</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -214,7 +212,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>15</id>
       <parentid>14</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -242,7 +240,7 @@ The allowed values for this property are:
     <revision>
       <id>17</id>
       <parentid>16</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -286,7 +284,7 @@ Edit the page to see the template text.
     <revision>
       <id>19</id>
       <parentid>18</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -339,7 +337,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>21</id>
       <parentid>20</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -361,7 +359,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>23</id>
       <parentid>22</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -383,7 +381,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>25</id>
       <parentid>24</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -423,7 +421,7 @@ Edit the page to see the template text.
     <revision>
       <id>27</id>
       <parentid>26</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -473,7 +471,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>29</id>
       <parentid>28</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -495,7 +493,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>31</id>
       <parentid>30</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -517,7 +515,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>33</id>
       <parentid>32</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -539,7 +537,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>35</id>
       <parentid>34</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -583,7 +581,7 @@ Edit the page to see the template text.
     <revision>
       <id>37</id>
       <parentid>36</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -636,7 +634,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>39</id>
       <parentid>38</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -658,7 +656,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>41</id>
       <parentid>40</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -680,7 +678,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>43</id>
       <parentid>42</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -720,7 +718,7 @@ Edit the page to see the template text.
     <revision>
       <id>45</id>
       <parentid>44</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -772,7 +770,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>47</id>
       <parentid>46</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -794,7 +792,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>49</id>
       <parentid>48</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -816,7 +814,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>51</id>
       <parentid>50</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -838,7 +836,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>53</id>
       <parentid>52</parentid>
-      <timestamp>2014-12-10T19:38:35Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -893,7 +891,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>55</id>
       <parentid>54</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -915,7 +913,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>57</id>
       <parentid>56</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -937,7 +935,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>59</id>
       <parentid>58</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:55Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -957,22 +955,21 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>31</id>
     <revision>
-      <id>61</id>
-      <parentid>60</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <id>858</id>
+      <parentid>855</parentid>
+      <timestamp>2014-12-11T14:52:32Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="380">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="441">&lt;noinclude&gt;
 This is the &quot;Server&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
 {{Server
 |Hostname=
 |OS=
+|Steward
 }}
 &lt;/pre&gt;
 Edit the page to see the template text.
@@ -985,11 +982,14 @@ Edit the page to see the template text.
 |-
 ! Operating System
 | [[Server OS::{{{OS|}}}]] 
+|- 
+! Steward
+| [[Server steward::{{{Steward|}}}]] 
 |}
 
 [[Category:Servers]]
 &lt;/includeonly&gt;</text>
-      <sha1>8lum580me49y7q79bul90zk0f7atn5e</sha1>
+      <sha1>r8i1lrqlr2mm5r88hkre29swuktdjsl</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -999,16 +999,14 @@ Edit the page to see the template text.
     <ns>106</ns>
     <id>32</id>
     <revision>
-      <id>63</id>
-      <parentid>62</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <id>856</id>
+      <parentid>63</parentid>
+      <timestamp>2014-12-11T14:51:15Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="880">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="976">&lt;noinclude&gt;
 This is the &quot;Server&quot; form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -1027,6 +1025,9 @@ if a page with that name already exists, you will be sent to a form to edit that
 |-
 ! OS: 
 | {{{field|OS|input type=combobox|values from category=Dependency Versions}}}
+|-
+! Steward:
+| {{{field|Steward|input type=combobox|values from category=Component Stewards}}}
 |}
 {{{end template}}}
 
@@ -1041,7 +1042,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>ox9vk6i6n3zu2a8ajc9kcoshjozxjsv</sha1>
+      <sha1>sjt764e0e764ferbjrs84zdmok4beca</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1053,7 +1054,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>65</id>
       <parentid>64</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1075,7 +1076,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>67</id>
       <parentid>66</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1097,7 +1098,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>69</id>
       <parentid>68</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1139,7 +1140,7 @@ Edit the page to see the template text.
     <revision>
       <id>71</id>
       <parentid>70</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1161,7 +1162,7 @@ Edit the page to see the template text.
     <revision>
       <id>73</id>
       <parentid>72</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1183,7 +1184,7 @@ Edit the page to see the template text.
     <revision>
       <id>75</id>
       <parentid>74</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1205,7 +1206,7 @@ Edit the page to see the template text.
     <revision>
       <id>77</id>
       <parentid>76</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1227,7 +1228,7 @@ Edit the page to see the template text.
     <revision>
       <id>79</id>
       <parentid>78</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1277,7 +1278,7 @@ Edit the page to see the template text.
     <revision>
       <id>81</id>
       <parentid>80</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1335,7 +1336,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>83</id>
       <parentid>82</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1357,7 +1358,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>85</id>
       <parentid>84</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1377,16 +1378,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>44</id>
     <revision>
-      <id>87</id>
-      <parentid>86</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <id>874</id>
+      <parentid>853</parentid>
+      <timestamp>2014-12-11T17:07:06Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="467">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="653">&lt;noinclude&gt;
 This is the &quot;BAComponent&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1400,6 +1399,7 @@ Edit the page to see the template text.
 [[Category:Simularch]]
 
 &lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+|+ BA Component Attributes
 ! Description
 | [[BA component one line description::{{{Description|}}}]] 
 |-
@@ -1407,9 +1407,15 @@ Edit the page to see the template text.
 | {{#arraymap:{{{HLBAComponent|}}}|,|x|[[HLBA component::x]]}}
 |}
 
+{| class=&quot;wikitable&quot;
+|+Contents
+! Contains systems
+| {{#ask: [[Category:Systems]] [[System is member of BA component::{{FULLPAGENAME}}]] | output=table }}
+|}
+
 [[Category:BA Components]]
 &lt;/includeonly&gt;</text>
-      <sha1>gox1s865c0terxvm7zdbp2mm916seim</sha1>
+      <sha1>gvva007qpt0f15ozi3dq7qophwtby8c</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1421,7 +1427,7 @@ Edit the page to see the template text.
     <revision>
       <id>89</id>
       <parentid>88</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1473,7 +1479,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>91</id>
       <parentid>90</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1495,7 +1501,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>93</id>
       <parentid>92</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1533,7 +1539,7 @@ Edit the page to see the template text.
     <revision>
       <id>95</id>
       <parentid>94</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1582,7 +1588,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>97</id>
       <parentid>96</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1604,7 +1610,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>99</id>
       <parentid>98</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1624,15 +1630,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>51</id>
     <revision>
-      <id>101</id>
-      <parentid>100</parentid>
-      <timestamp>2014-12-10T19:38:36Z</timestamp>
+      <id>876</id>
+      <parentid>875</parentid>
+      <timestamp>2014-12-11T17:18:04Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
+      <comment>Undo revision 875 by [[Special:Contributions/JosefAssad|JosefAssad]] ([[User talk:JosefAssad|talk]])</comment>
       <text xml:space="preserve" bytes="451">&lt;noinclude&gt;
 This is the &quot;Dependency&quot; template.
 It should be called in the following format:
@@ -1668,7 +1673,7 @@ Edit the page to see the template text.
     <revision>
       <id>103</id>
       <parentid>102</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1720,7 +1725,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>105</id>
       <parentid>104</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1742,7 +1747,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>107</id>
       <parentid>106</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1764,7 +1769,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>109</id>
       <parentid>108</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1786,7 +1791,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>111</id>
       <parentid>110</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1808,7 +1813,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>113</id>
       <parentid>112</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1858,7 +1863,7 @@ Edit the page to see the template text.
     <revision>
       <id>115</id>
       <parentid>114</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:56Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1916,7 +1921,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>117</id>
       <parentid>116</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1938,7 +1943,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>119</id>
       <parentid>118</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -1976,7 +1981,7 @@ Edit the page to see the template text.
     <revision>
       <id>121</id>
       <parentid>120</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2025,7 +2030,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>123</id>
       <parentid>122</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2047,7 +2052,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>125</id>
       <parentid>124</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2069,7 +2074,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>127</id>
       <parentid>126</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2091,7 +2096,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>129</id>
       <parentid>128</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2137,7 +2142,7 @@ Edit the page to see the template text.
     <revision>
       <id>131</id>
       <parentid>130</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2192,7 +2197,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>133</id>
       <parentid>132</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2214,7 +2219,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>135</id>
       <parentid>134</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2236,7 +2241,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>137</id>
       <parentid>136</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2258,7 +2263,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>139</id>
       <parentid>138</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2280,7 +2285,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>141</id>
       <parentid>140</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2302,7 +2307,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>143</id>
       <parentid>142</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2324,7 +2329,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>145</id>
       <parentid>144</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2346,7 +2351,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>147</id>
       <parentid>146</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2368,7 +2373,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>149</id>
       <parentid>148</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2390,7 +2395,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>151</id>
       <parentid>150</parentid>
-      <timestamp>2014-12-10T19:38:37Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2412,7 +2417,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>153</id>
       <parentid>152</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2434,7 +2439,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>155</id>
       <parentid>154</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2456,7 +2461,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>157</id>
       <parentid>156</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2538,7 +2543,7 @@ Edit the page to see the template text.
     <revision>
       <id>159</id>
       <parentid>158</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2620,7 +2625,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>161</id>
       <parentid>160</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2641,7 +2646,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>163</id>
       <parentid>162</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2663,7 +2668,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>165</id>
       <parentid>164</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2705,7 +2710,7 @@ Edit the page to see the template text.
     <revision>
       <id>167</id>
       <parentid>166</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:57Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2757,7 +2762,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>169</id>
       <parentid>168</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2778,7 +2783,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>171</id>
       <parentid>170</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2799,7 +2804,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>173</id>
       <parentid>172</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2820,7 +2825,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>175</id>
       <parentid>174</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2841,7 +2846,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>177</id>
       <parentid>176</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2862,7 +2867,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>179</id>
       <parentid>178</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2883,7 +2888,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>181</id>
       <parentid>180</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2904,7 +2909,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>183</id>
       <parentid>182</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2925,7 +2930,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>185</id>
       <parentid>184</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2946,7 +2951,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>187</id>
       <parentid>186</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2967,7 +2972,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>189</id>
       <parentid>188</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -2988,7 +2993,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>191</id>
       <parentid>190</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -3009,7 +3014,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>193</id>
       <parentid>192</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -3030,7 +3035,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>195</id>
       <parentid>194</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -3051,7 +3056,7 @@ if a page with that name already exists, you will be sent to a form to edit that
     <revision>
       <id>197</id>
       <parentid>196</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
@@ -3101,16 +3106,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>100</id>
     <revision>
-      <id>199</id>
-      <parentid>198</parentid>
-      <timestamp>2014-12-10T19:38:38Z</timestamp>
+      <id>873</id>
+      <parentid>872</parentid>
+      <timestamp>2014-12-11T16:30:33Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="572">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="963">&lt;noinclude&gt;
 This is the &quot;ComponentSteward&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -3125,6 +3128,7 @@ Edit the page to see the template text.
 [[Category:Simularch]]
 
 &lt;/noinclude&gt;&lt;includeonly&gt;{| class=&quot;wikitable&quot;
+|+Component Steward Properties
 ! Full name
 | [[Component steward full name::{{{Name|}}}]] 
 |-
@@ -3133,14 +3137,26 @@ Edit the page to see the template text.
 |-
 ! Phone
 | [[Component steward phone::{{{Phone|}}}]] 
-|-
-! 
+|}
+
+{| class=&quot;wikitable&quot;
+|+Responsibilities
+! Organizational Unit Steward
 | {{#ask:[[Organizational unit steward::{{SUBJECTPAGENAME}}]]|format=list}}
+|-
+! Server Steward
+| {{#ask:[[Server steward::{{FULLPAGENAME}}]]|format=list}}
+|- 
+! Infrastructure Facility Steward
+| {{#ask:[[Infrastructure facility steward::{{FULLPAGENAME}}]]|format=list}}
+|- 
+! System Version Steward
+| {{#ask:[[System version steward::{{FULLPAGENAME}}]]|format=list}}
 |}
 
 [[Category:Component Stewards]]
 &lt;/includeonly&gt;</text>
-      <sha1>qbeokh7irz9ynx83grhiwfasdq1aldy</sha1>
+      <sha1>lk66f7ne2juk027gtz1xnp7aryqtr3l</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3148,15 +3164,17 @@ Edit the page to see the template text.
   <page>
     <title>Category:Vendors</title>
     <ns>14</ns>
-    <id>737</id>
+    <id>101</id>
     <revision>
-      <id>846</id>
-      <timestamp>2014-12-10T19:55:44Z</timestamp>
+      <id>201</id>
+      <parentid>200</parentid>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::Vendor]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="65">Uses the form [[Has default form::Vendor]]
 [[Category:Simularch]]</text>
       <sha1>oc4aoinek97qh0699a688n7eqb20ktq</sha1>
@@ -3167,15 +3185,17 @@ Edit the page to see the template text.
   <page>
     <title>Category:Standards</title>
     <ns>14</ns>
-    <id>738</id>
+    <id>102</id>
     <revision>
-      <id>847</id>
-      <timestamp>2014-12-10T19:56:11Z</timestamp>
+      <id>203</id>
+      <parentid>202</parentid>
+      <timestamp>2014-12-10T20:21:58Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Created page with &quot;Uses the form [[Has default form::Standard]] [[Category:Simularch]]&quot;</comment>
+      <minor/>
+      <comment>1 revision</comment>
       <text xml:space="preserve" bytes="67">Uses the form [[Has default form::Standard]]
 [[Category:Simularch]]</text>
       <sha1>a5jpo1r3uc89c44qjhcl3vum289i5jg</sha1>
