@@ -8,6 +8,7 @@ Simularch is an enterprise grade system which models the entire apparatus which 
 5. The Data Transfer extension to SMW version 0.6 at http://www.mediawiki.org/wiki/Extension:Data_Transfer
 6. The ParserFunctions extension to MW version 1.6.0 at http://www.mediawiki.org/wiki/Extension:ParserFunctions
 7. The Semantic Result Formats extension to SMW from https://semantic-mediawiki.org/wiki/Semantic_Result_Formats
+8. Copy smw_refresher.sh to /root/ and install it in cron with `*/1 * * * * sh /root/refresh.sh`. This is required so data updates are somewhat timely.
 
 # Installation
 1. Install Semantic Mediawiki
