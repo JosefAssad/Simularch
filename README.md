@@ -6,6 +6,8 @@ Simularch is an enterprise grade system which models the entire apparatus which 
 3. Mediawiki (hereafter MW) 1.23.3
 4. Semantic Mediawiki (hereafter SMW) 2
 5. The Data Transfer extension to SMW version 0.6 at http://www.mediawiki.org/wiki/Extension:Data_Transfer
+6. The ParserFunctions extension to MW version 1.6.0 at http://www.mediawiki.org/wiki/Extension:ParserFunctions
+7. The Semantic Result Formats extension to SMW from https://semantic-mediawiki.org/wiki/Semantic_Result_Formats
 
 # Installation
 1. Install Semantic Mediawiki
