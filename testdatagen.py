@@ -8440,7 +8440,7 @@ ou_names = [
 "Urban Development",
 "Water Resources",
 "Welfare",
-"Youth, Art & Culture",
+"Youth Art & Culture",
 "Directorate of Archaeology",
 "Directorate of Museum"
 ]
