@@ -1133,14 +1133,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>35</id>
     <revision>
-      <id>877</id>
-      <parentid>876</parentid>
-      <timestamp>2014-12-12T09:53:45Z</timestamp>
+      <id>1197</id>
+      <parentid>1191</parentid>
+      <timestamp>2014-12-19T00:15:26Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="730">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="1079">&lt;noinclude&gt;
 This is the &quot;InfrastructureFacility&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1168,9 +1168,12 @@ Edit the page to see the template text.
 | {{#ask: [[Category:Deployed System Versions]] [[Infrastructure facility used::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set: Number of servers used by infrastructure facility={{#ask: [[Category:Servers]] [[-Infrastructure facility uses servers::{{FULLPAGENAME}}]] | format=count }} }}
+{{#set: Number of DepSysVer hosted by infrastructure facility={{#ask: [[Category:Deployed System Versions]] [[Infrastructure facility used::{{FULLPAGENAME}}]] | format=count }} }}
+
 [[Category:Infrastructure Facilities]]
 &lt;/includeonly&gt;</text>
-      <sha1>3fy8biquv15px6dhrsusy6yjb5netwk</sha1>
+      <sha1>61p8cswygnc185xnfjgvonzr4dz0fov</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1428,16 +1431,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>44</id>
     <revision>
-      <id>87</id>
-      <parentid>86</parentid>
-      <timestamp>2014-12-11T18:23:11Z</timestamp>
+      <id>1062</id>
+      <parentid>1061</parentid>
+      <timestamp>2014-12-18T08:18:49Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="653">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="800">&lt;noinclude&gt;
 This is the &quot;BAComponent&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1465,9 +1466,11 @@ Edit the page to see the template text.
 | {{#ask: [[Category:Systems]] [[System is member of BA component::{{FULLPAGENAME}}]] | output=table }}
 |}
 
+{{#set:BA component has number of systems={{#ask: [[Category:Systems]] [[System is member of BA component::{{FULLPAGENAME}}]] | format=count}} }}
+
 [[Category:BA Components]]
 &lt;/includeonly&gt;</text>
-      <sha1>gvva007qpt0f15ozi3dq7qophwtby8c</sha1>
+      <sha1>mty2s8ck5k6kbijavn87axpwye9hqpz</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1551,14 +1554,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>47</id>
     <revision>
-      <id>864</id>
-      <parentid>863</parentid>
-      <timestamp>2014-12-11T19:41:15Z</timestamp>
+      <id>1067</id>
+      <parentid>1066</parentid>
+      <timestamp>2014-12-18T09:16:52Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="569">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="713">&lt;noinclude&gt;
 This is the &quot;HLBAComponent&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1582,9 +1585,11 @@ Edit the page to see the template text.
 | {{#ask: [[Category:BA Components]] [[HLBA component::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set:HLBA component has number of BA components={{#ask: [[Category:BA Components]] [[HLBA component::{{FULLPAGENAME}}]] | format=count }} }}
+
 [[Category:HLBA Components]]
 &lt;/includeonly&gt;</text>
-      <sha1>to8vsycxinqcfknkhiqx7d1ziqytp5s</sha1>
+      <sha1>g9h502yanlcz4omwsqxwhildks5eg27</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1687,14 +1692,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>51</id>
     <revision>
-      <id>872</id>
-      <parentid>871</parentid>
-      <timestamp>2014-12-12T09:04:42Z</timestamp>
+      <id>1115</id>
+      <parentid>1114</parentid>
+      <timestamp>2014-12-18T14:33:38Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="655">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="806">&lt;noinclude&gt;
 This is the &quot;Dependency&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1722,9 +1727,11 @@ Edit the page to see the template text.
 | {{#ask: [[Category:Dependency Versions]] [[Is version of dependency::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set:Dependency has number of versions={{#ask: [[Category:Dependency Versions]] [[Is version of dependency::{{FULLPAGENAME}}]] | format=count }} }}
+
 [[Category:Dependencies]]
 &lt;/includeonly&gt;</text>
-      <sha1>1i6uc41rrp94wlknri2bl585w5jpxjz</sha1>
+      <sha1>fpdnli4swm1bcpdu6w9as1xripviz8a</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -1874,14 +1881,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>57</id>
     <revision>
-      <id>873</id>
-      <parentid>113</parentid>
-      <timestamp>2014-12-12T09:21:47Z</timestamp>
+      <id>1127</id>
+      <parentid>1120</parentid>
+      <timestamp>2014-12-18T14:56:14Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="1066">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="1642">&lt;noinclude&gt;
 This is the &quot;DependencyVersion&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -1920,10 +1927,13 @@ Edit the page to see the template text.
 | {{#ask: [[Category:Dependency Versions]] [[Dependency version has dependency::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set: System versions depending on dependency version={{#ask: [[Category:System Versions]] [[System version dependencies::{{FULLPAGENAME}}]] | format=count}} }}
+{{#set: Dependency versions depending on dependency version={{#ask: [[Category:Dependency Versions]] [[Dependency version has dependency::{{FULLPAGENAME}}]] | format=count}} }}
+{{#set: Dependency version has total dependent versions={{#expr: {{#show: {{FULLPAGENAME}} | ?System versions depending on dependency version }} + {{#show: {{FULLPAGENAME}} | ?Dependency versions depending on dependency version }} }}}}
 
 [[Category:Dependency Versions]]
 &lt;/includeonly&gt;</text>
-      <sha1>ln8x67i4k65juoa5elw8985hgbfgi4h</sha1>
+      <sha1>1i6bvz0mtkriq99navtc9xnlzc8d8j1</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2013,15 +2023,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>60</id>
     <revision>
-      <id>862</id>
-      <parentid>861</parentid>
-      <timestamp>2014-12-11T19:26:01Z</timestamp>
+      <id>1044</id>
+      <parentid>1016</parentid>
+      <timestamp>2014-12-16T22:36:12Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <comment>Undo revision 861 by [[Special:Contributions/JosefAssad|JosefAssad]] ([[User talk:JosefAssad|talk]])</comment>
-      <text xml:space="preserve" bytes="547">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="665">&lt;noinclude&gt;
 This is the &quot;System&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -2042,12 +2051,14 @@ Edit the page to see the template text.
 {| class=&quot;wikitable&quot;
 |+ Derived Attributes
 ! Versions
-| {{#ask: [[Category:System Versions]] [[Is version of system::{{FULLPAGENAME}}]] | format=table | mainlabel=Name}}
+| {{#ask: [[Category:System Versions]] [[Is version of system::{{FULLPAGENAME}}]] | format=table}}
 |}
+
+[[Has number of system versions::{{#ask: [[Category:System Versions]] [[Is version of system::{{FULLPAGENAME}}]] | format=count}}| ]]
 
 [[Category:Systems]]
 &lt;/includeonly&gt;</text>
-      <sha1>iehf8p0icmcib2iudhw1h3sga0vhx3f</sha1>
+      <sha1>sbzfjgkai95jdd50s0lki60spfu1ce4</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2172,16 +2183,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>65</id>
     <revision>
-      <id>129</id>
-      <parentid>128</parentid>
-      <timestamp>2014-12-11T18:23:12Z</timestamp>
+      <id>1186</id>
+      <parentid>1182</parentid>
+      <timestamp>2014-12-18T20:35:23Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="662">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="1177">&lt;noinclude&gt;
 This is the &quot;DeployedSystemVersion&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -2206,9 +2215,13 @@ Edit the page to see the template text.
 | {{#arraymap:{{{OrganizationalUnit|}}}|,|x|[[Organizational unit served::x]]}}
 |}
 
+{{#set: Deployed system version is latest={{#show: {{#show: {{FULLPAGENAME}} | ?System version deployed | link=none }} | ?System version is latest}} }}
+{{#set: Deployed system version infrastructure facility tenancy={{#ask: [[Category:Deployed System Versions]] [[Infrastructure facility used::{{{InfrastructureFacility}}}]] | format=count}} }}
+{{#set: Deployed system version serves how many org units={{#ask: [[Category:Organizational Units]] [[-Organizational unit served::{{FULLPAGENAME}}]] |format=count}} }}
+
 [[Category:Deployed System Versions]]
 &lt;/includeonly&gt;</text>
-      <sha1>ox4bq9us6waogtxefp1z1sso8nr60r3</sha1>
+      <sha1>i2rjn984mnnandx4p97up18fi7dae8h</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2707,18 +2720,22 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>81</id>
     <revision>
-      <id>161</id>
-      <parentid>160</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1063</id>
+      <parentid>1059</parentid>
+      <timestamp>2014-12-18T08:20:09Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="70">Uses the form [[Has default form::BAComponent]]
+      <text xml:space="preserve" bytes="191">{{#ask: [[Category:BA Components]]
+| ?BA component has number of systems=Systems
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::BAComponent]]
 [[Category:Simularch]]</text>
-      <sha1>iwfpcqh3q5ijl9c7dcryqhy5o51vsiy</sha1>
+      <sha1>ofmwb2wayva2r0wnl0xhuz2ry88wtq9</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2849,18 +2866,26 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>85</id>
     <revision>
-      <id>169</id>
-      <parentid>168</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1108</id>
+      <parentid>1105</parentid>
+      <timestamp>2014-12-18T12:04:16Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="75">Uses the form [[Has default form::ComponentSteward]]
+      <text xml:space="preserve" bytes="508">{{#ask: [[Category:Component Stewards]]
+| ?Component steward responsible for number of servers=Servers
+| ?Component steward responsible for number of org units=Org Units
+| ?Component steward responsible for number of infrastructure facilities=Facilities
+| ?Component steward responsible for number of system versions=System Versions
+| ?Component steward total number of responsibilities=Total
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::ComponentSteward]]
 [[Category:Simularch]]</text>
-      <sha1>5b8z8cj2pm98rvsze5whggeg0nuhed6</sha1>
+      <sha1>cpf0y9avzprzbupg95oy9wm6kiuvesx</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2870,18 +2895,23 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>86</id>
     <revision>
-      <id>171</id>
-      <parentid>170</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1112</id>
+      <parentid>171</parentid>
+      <timestamp>2014-12-18T14:28:00Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="69">Uses the form [[Has default form::Dependency]]
+      <text xml:space="preserve" bytes="195">{{#ask: [[Category:Dependencies]]
+| ?Dependency has number of versions=Version Count
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::Dependency]]
+
 [[Category:Simularch]]</text>
-      <sha1>7lzern6a9fn5i6efu31jnkv7k0pyd1p</sha1>
+      <sha1>r6mcluyeikrkkmc2shccuu5wy100ts6</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2891,18 +2921,24 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>87</id>
     <revision>
-      <id>173</id>
-      <parentid>172</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1126</id>
+      <parentid>1121</parentid>
+      <timestamp>2014-12-18T14:56:09Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="76">Uses the form [[Has default form::DependencyVersion]]
+      <text xml:space="preserve" bytes="376">{{#ask: [[Category:Dependency Versions]]
+| ?System versions depending on dependency version=Dependent System Versions
+| ?Dependency versions depending on dependency version=Dependent Dependency Versions
+| ?Dependency version has total dependent versions=Total
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::DependencyVersion]]
 [[Category:Simularch]]</text>
-      <sha1>7qfwm1uguguiaek0zrey84plmlq8eea</sha1>
+      <sha1>dv1sratba040xz61t75bso92ik2kwak</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2912,18 +2948,25 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>88</id>
     <revision>
-      <id>175</id>
-      <parentid>174</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1185</id>
+      <parentid>1169</parentid>
+      <timestamp>2014-12-18T20:34:11Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="80">Uses the form [[Has default form::DeployedSystemVersion]]
+      <text xml:space="preserve" bytes="400">{{#ask: [[Category:Deployed System Versions]]
+| ?Deployed system version is latest=Is latest?
+| ?Deployed system version infrastructure facility tenancy=Tenancy on infrastructure facility
+| ?Deployed system version serves how many org units=Number of organisational units served
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::DeployedSystemVersion]]
+
 [[Category:Simularch]]</text>
-      <sha1>pajezue4tzkbqrg9byfgi6a2bu15hhf</sha1>
+      <sha1>ghyfsf2v82onfjoqlmydyue7rb6eb73</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2933,18 +2976,22 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>89</id>
     <revision>
-      <id>177</id>
-      <parentid>176</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1069</id>
+      <parentid>1068</parentid>
+      <timestamp>2014-12-18T09:17:59Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="72">Uses the form [[Has default form::HLBAComponent]]
+      <text xml:space="preserve" bytes="209">{{#ask: [[Category:HLBA Components]]
+| ?HLBA component has number of BA components=BA components
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::HLBAComponent]]
 [[Category:Simularch]]</text>
-      <sha1>ag9pcad9ellripah7683awfrqo0iltn</sha1>
+      <sha1>fppecy8fpjfnxny111qe7kenyiyekrw</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2954,18 +3001,24 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>90</id>
     <revision>
-      <id>179</id>
-      <parentid>178</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1196</id>
+      <parentid>179</parentid>
+      <timestamp>2014-12-19T00:13:41Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="81">Uses the form [[Has default form::InfrastructureFacility]]
+      <text xml:space="preserve" bytes="312">{{#ask: [[Category:Infrastructure Facilities]]
+| ?Number of servers used by infrastructure facility=Servers
+| ?Number of DepSysVer hosted by infrastructure facility=Deployed System Versions
+| mainlabel=Name
+| format=datatable
+}}
+
+Uses the form [[Has default form::InfrastructureFacility]]
+
 [[Category:Simularch]]</text>
-      <sha1>rll8lezjr16bw6ke1zkevrpavnky6sl</sha1>
+      <sha1>b1rea18ja4ew23j5a5kox0napdn2swr</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -2996,18 +3049,28 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>92</id>
     <revision>
-      <id>183</id>
-      <parentid>182</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>946</id>
+      <parentid>943</parentid>
+      <timestamp>2014-12-14T21:54:09Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="66">Uses the form [[Has default form::License]]
+      <text xml:space="preserve" bytes="294">{| class=&quot;wikitable smwtable sortable&quot;
+|- valign=&quot;bottom&quot;
+! Licenses
+! Number of versions
+! Deployments affected
+{{#ask: [[Category:Licenses]]
+  | format   = template
+  | template = Porcelain_SIM00001
+  | link     = none
+}}
+|}
+
+Uses the form [[Has default form::License]]
 [[Category:Simularch]]</text>
-      <sha1>3k8ki3txujx25kpx2wpsii3ard1dtbg</sha1>
+      <sha1>2dj09ci7ipukd53mcehghod9vfh1pjr</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3122,18 +3185,24 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>14</ns>
     <id>98</id>
     <revision>
-      <id>195</id>
-      <parentid>194</parentid>
-      <timestamp>2014-12-11T18:23:14Z</timestamp>
+      <id>1054</id>
+      <parentid>1053</parentid>
+      <timestamp>2014-12-16T23:28:17Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="80">This category uses the form [[Has default form::System]].
+      <text xml:space="preserve" bytes="245">{{#ask: [[Category:Systems]]
+| ?System is member of BA component=BA Component
+| ?Has number of system versions=Version Count
+| mainlabel=Name
+| format=datatable
+}}
+
+This category uses the form [[Has default form::System]]
+
 [[Category:Simularch]]</text>
-      <sha1>hu5zb0wmzxa9fgeqaux32fqrugea61i</sha1>
+      <sha1>1scqgqkwwub2iawvd7mxsh0qji8nr36</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3195,16 +3264,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>100</id>
     <revision>
-      <id>199</id>
-      <parentid>198</parentid>
-      <timestamp>2014-12-11T18:23:14Z</timestamp>
+      <id>1107</id>
+      <parentid>1101</parentid>
+      <timestamp>2014-12-18T12:03:12Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="963">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="2104">&lt;noinclude&gt;
 This is the &quot;ComponentSteward&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -3245,9 +3312,15 @@ Edit the page to see the template text.
 | {{#ask:[[System version steward::{{FULLPAGENAME}}]]|format=list}}
 |}
 
+{{#set:Component steward responsible for number of servers={{#ask: [[Category:Servers]] [[Server steward::{{FULLPAGENAME}}]] | format=count }} }}
+{{#set:Component steward responsible for number of org units={{#ask: [[Category:Organizational Units]] [[Organizational unit steward::{{FULLPAGENAME}}]] | format=count }} }}
+{{#set:Component steward responsible for number of system versions={{#ask: [[Category:System Versions]] [[System version steward::{{FULLPAGENAME}}]] | format=count }} }}
+{{#set:Component steward responsible for number of infrastructure facilities={{#ask: [[Category:Infrastructure Facilities]] [[Infrastructure facility steward::{{FULLPAGENAME}}]] | format=count }} }}
+{{#set:Component steward total number of responsibilities={{#expr: ({{#show: {{FULLPAGENAME}} | ?Component steward responsible for number of servers }}) + ({{#show: {{FULLPAGENAME}} | ?Component steward responsible for number of org units }}) + ({{#show: {{FULLPAGENAME}} | ?Component steward responsible for number of system versions }}) + ({{#show: {{FULLPAGENAME}} | ?Component steward responsible for number of infrastructure facilities }}) }} }}
+
 [[Category:Component Stewards]]
 &lt;/includeonly&gt;</text>
-      <sha1>lk66f7ne2juk027gtz1xnp7aryqtr3l</sha1>
+      <sha1>5vd92728pi0ga7m6r8vxnb72j2qrc7d</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3290,6 +3363,326 @@ Edit the page to see the template text.
       <text xml:space="preserve" bytes="67">Uses the form [[Has default form::Standard]]
 [[Category:Simularch]]</text>
       <sha1>a5jpo1r3uc89c44qjhcl3vum289i5jg</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Has number of system versions</title>
+    <ns>102</ns>
+    <id>759</id>
+    <revision>
+      <id>1052</id>
+      <parentid>1051</parentid>
+      <timestamp>2014-12-16T23:21:36Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:BA component has number of systems</title>
+    <ns>102</ns>
+    <id>760</id>
+    <revision>
+      <id>1058</id>
+      <parentid>1057</parentid>
+      <timestamp>2014-12-18T07:33:17Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HLBA component has number of BA components</title>
+    <ns>102</ns>
+    <id>762</id>
+    <revision>
+      <id>1065</id>
+      <parentid>1064</parentid>
+      <timestamp>2014-12-18T09:14:44Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward responsible for number of servers</title>
+    <ns>102</ns>
+    <id>763</id>
+    <revision>
+      <id>1071</id>
+      <parentid>1070</parentid>
+      <timestamp>2014-12-18T09:50:42Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward responsible for number of org units</title>
+    <ns>102</ns>
+    <id>764</id>
+    <revision>
+      <id>1075</id>
+      <parentid>1074</parentid>
+      <timestamp>2014-12-18T10:10:13Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward responsible for number of system versions</title>
+    <ns>102</ns>
+    <id>765</id>
+    <revision>
+      <id>1079</id>
+      <parentid>1078</parentid>
+      <timestamp>2014-12-18T10:23:06Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward responsible for number of infrastructure facilities</title>
+    <ns>102</ns>
+    <id>766</id>
+    <revision>
+      <id>1081</id>
+      <parentid>1080</parentid>
+      <timestamp>2014-12-18T10:23:47Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Component steward total number of responsibilities</title>
+    <ns>102</ns>
+    <id>767</id>
+    <revision>
+      <id>1103</id>
+      <parentid>1102</parentid>
+      <timestamp>2014-12-18T11:58:10Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Dependency has number of versions</title>
+    <ns>102</ns>
+    <id>769</id>
+    <revision>
+      <id>1110</id>
+      <parentid>1109</parentid>
+      <timestamp>2014-12-18T14:27:34Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:System versions depending on dependency version</title>
+    <ns>102</ns>
+    <id>770</id>
+    <revision>
+      <id>1117</id>
+      <parentid>1116</parentid>
+      <timestamp>2014-12-18T14:40:16Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Dependency versions depending on dependency version</title>
+    <ns>102</ns>
+    <id>771</id>
+    <revision>
+      <id>1119</id>
+      <parentid>1118</parentid>
+      <timestamp>2014-12-18T14:42:16Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Dependency version has total dependent versions</title>
+    <ns>102</ns>
+    <id>772</id>
+    <revision>
+      <id>1125</id>
+      <parentid>1124</parentid>
+      <timestamp>2014-12-18T14:55:35Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Deployed system version infrastructure facility tenancy</title>
+    <ns>102</ns>
+    <id>775</id>
+    <revision>
+      <id>1176</id>
+      <parentid>1175</parentid>
+      <timestamp>2014-12-18T17:16:34Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Deployed system version serves how many org units</title>
+    <ns>102</ns>
+    <id>776</id>
+    <revision>
+      <id>1184</id>
+      <parentid>1183</parentid>
+      <timestamp>2014-12-18T20:33:59Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Number of servers used by infrastructure facility</title>
+    <ns>102</ns>
+    <id>777</id>
+    <revision>
+      <id>1193</id>
+      <parentid>1192</parentid>
+      <timestamp>2014-12-19T00:10:35Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Number of DepSysVer hosted by infrastructure facility</title>
+    <ns>102</ns>
+    <id>778</id>
+    <revision>
+      <id>1195</id>
+      <parentid>1194</parentid>
+      <timestamp>2014-12-19T00:12:58Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
