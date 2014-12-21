@@ -709,14 +709,13 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>22</id>
     <revision>
-      <id>883</id>
-      <parentid>882</parentid>
-      <timestamp>2014-12-12T21:31:18Z</timestamp>
+      <id>1301</id>
+      <parentid>1300</parentid>
+      <timestamp>2014-12-21T17:18:54Z</timestamp>
       <contributor>
-        <username>JosefAssad</username>
-        <id>2</id>
+        <ip>192.168.56.102</ip>
       </contributor>
-      <text xml:space="preserve" bytes="673">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="871">&lt;noinclude&gt;
 This is the &quot;OrganizationalUnit&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -742,9 +741,16 @@ Edit the page to see the template text.
 | {{#ask: [[Category:Deployed System Versions]] [[Organizational unit served::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set: Org unit has number of deployed system versions={{#ask: [[Category:Deployed System Versions]] [[Organizational unit served::{{FULLPAGENAME}}]] |format=count }} }}
+
+
+&lt;!--
+number of dsvs
+--&gt;
+
 [[Category:Organizational Units]]
 &lt;/includeonly&gt;</text>
-      <sha1>17brbn6iazzh2guee4t3pskv4b4ko2d</sha1>
+      <sha1>0wlkd5sibvpp56uemsnj5qozbf7zli6</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3100,18 +3106,21 @@ Uses the form [[Has default form::License]]
     <ns>14</ns>
     <id>93</id>
     <revision>
-      <id>185</id>
-      <parentid>184</parentid>
-      <timestamp>2014-12-11T18:23:13Z</timestamp>
+      <id>1304</id>
+      <parentid>185</parentid>
+      <timestamp>2014-12-21T17:28:07Z</timestamp>
       <contributor>
-        <username>JosefAssad</username>
-        <id>2</id>
+        <ip>192.168.56.102</ip>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
-      <text xml:space="preserve" bytes="77">Uses the form [[Has default form::OrganizationalUnit]]
+      <text xml:space="preserve" bytes="229">{{#ask: [[Category:Organizational Units]]
+| ?Org unit has number of deployed system versions=Number of deployed system versions
+| format=datatable
+}}
+
+Uses the form [[Has default form::OrganizationalUnit]]
+
 [[Category:Simularch]]</text>
-      <sha1>235qvk3wnzamauv2fyeyxrv167vaq7b</sha1>
+      <sha1>pjv4f7vhp6gq9xel74mv4k88kts7p5z</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3855,6 +3864,26 @@ Edit the page to see the template text.
       <id>1294</id>
       <parentid>1293</parentid>
       <timestamp>2014-12-21T13:47:40Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Org unit has number of deployed system versions</title>
+    <ns>102</ns>
+    <id>788</id>
+    <revision>
+      <id>1303</id>
+      <parentid>1302</parentid>
+      <timestamp>2014-12-21T17:20:37Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
