@@ -1,7 +1,7 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
   <siteinfo>
     <sitename>EA</sitename>
-    <base>http://localhost/core/index.php/Main_Page</base>
+    <base>http://simularch/core/index.php/Main_Page</base>
     <generator>MediaWiki 1.23.3</generator>
     <case>first-letter</case>
     <namespaces>
@@ -552,14 +552,14 @@ if a page with that name already exists, you will be sent to a form to edit that
     <ns>10</ns>
     <id>18</id>
     <revision>
-      <id>879</id>
-      <parentid>878</parentid>
-      <timestamp>2014-12-12T19:04:35Z</timestamp>
+      <id>1296</id>
+      <parentid>1292</parentid>
+      <timestamp>2014-12-21T13:50:45Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="704">&lt;noinclude&gt;
+      <text xml:space="preserve" bytes="1877">&lt;noinclude&gt;
 This is the &quot;License&quot; template.
 It should be called in the following format:
 &lt;pre&gt;
@@ -589,10 +589,20 @@ Edit the page to see the template text.
 | {{#ask: [[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]] | format=table | mainlabel=Name }}
 |}
 
+{{#set: License has number of license versions={{#ask: [[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]] | format=count}} }}
+{{#set: License used in number of system versions={{#ask: [[Category:System Versions]] [[System version license::&lt;q&gt; [[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]] &lt;/q&gt;]] | format=count }} }}
+{{#set: License used in number of dependency versions={{#ask: [[Category:Dependency Versions]] [[Dependency version has license::&lt;q&gt; [[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]] &lt;/q&gt;]] | format=count}} }}
+{{#set: License used in number of deployed system versions={{#ask: [[Category:Deployed System Versions]] [[System version deployed::&lt;q&gt;[[Category:System Versions]] [[System version license::&lt;q&gt;[[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]]&lt;/q&gt;]]&lt;/q&gt;]] | format=count}}}}
+
+&lt;!--
+{{#ask: [[Category:Deployed System Versions]] [[System version deployed::&lt;q&gt;[[Category:System Versions]] [[System version license::&lt;q&gt;[[Category:License Versions]] [[Is version of license::{{FULLPAGENAME}}]]&lt;/q&gt;]]&lt;/q&gt;]] | format=count}}
+
+deployed system versions
+--&gt;
 
 [[Category:Licenses]]
 &lt;/includeonly&gt;</text>
-      <sha1>sc2m0mrt5dbt31wpuc11ou1ifdqtrfo</sha1>
+      <sha1>3yii7dvqcteg6jb2l1rmfctw63jsvf5</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3062,28 +3072,25 @@ Uses the form [[Has default form::LicenseVersion]]
     <ns>14</ns>
     <id>92</id>
     <revision>
-      <id>946</id>
-      <parentid>943</parentid>
-      <timestamp>2014-12-14T21:54:09Z</timestamp>
+      <id>1295</id>
+      <parentid>1261</parentid>
+      <timestamp>2014-12-21T13:49:02Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
       </contributor>
-      <text xml:space="preserve" bytes="294">{| class=&quot;wikitable smwtable sortable&quot;
-|- valign=&quot;bottom&quot;
-! Licenses
-! Number of versions
-! Deployments affected
-{{#ask: [[Category:Licenses]]
-  | format   = template
-  | template = Porcelain_SIM00001
-  | link     = none
+      <text xml:space="preserve" bytes="429">{{#ask: [[Category:Licenses]]
+| ?License has number of license versions=Number of license versions
+| ?License used in number of system versions=Number of system versions
+| ?License used in number of dependency versions=Number of dependency versionns
+| ?License used in number of deployed system versions=Number of deployed system versions
+| format=datatable
 }}
-|}
 
 Uses the form [[Has default form::License]]
+
 [[Category:Simularch]]</text>
-      <sha1>2dj09ci7ipukd53mcehghod9vfh1pjr</sha1>
+      <sha1>29u1z5mudmkkmj9f9d4lyqxfxoeaddh</sha1>
       <model>wikitext</model>
       <format>text/x-wiki</format>
     </revision>
@@ -3768,6 +3775,86 @@ Edit the page to see the template text.
       <id>1205</id>
       <parentid>1204</parentid>
       <timestamp>2014-12-19T11:35:55Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License has number of license versions</title>
+    <ns>102</ns>
+    <id>783</id>
+    <revision>
+      <id>1243</id>
+      <parentid>1242</parentid>
+      <timestamp>2014-12-21T11:39:07Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License used in number of system versions</title>
+    <ns>102</ns>
+    <id>785</id>
+    <revision>
+      <id>1267</id>
+      <parentid>1266</parentid>
+      <timestamp>2014-12-21T12:21:43Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License used in number of dependency versions</title>
+    <ns>102</ns>
+    <id>786</id>
+    <revision>
+      <id>1278</id>
+      <parentid>1277</parentid>
+      <timestamp>2014-12-21T13:17:29Z</timestamp>
+      <contributor>
+        <username>JosefAssad</username>
+        <id>2</id>
+      </contributor>
+      <text xml:space="preserve" bytes="72">This is a property of type [[Has type::Number]].
+
+[[Category:Simularch]]</text>
+      <sha1>5zdhc36v74t7wso4tz9a3lj4zw6csjo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Property:License used in number of deployed system versions</title>
+    <ns>102</ns>
+    <id>787</id>
+    <revision>
+      <id>1294</id>
+      <parentid>1293</parentid>
+      <timestamp>2014-12-21T13:47:40Z</timestamp>
       <contributor>
         <username>JosefAssad</username>
         <id>2</id>
