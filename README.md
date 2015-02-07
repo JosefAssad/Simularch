@@ -20,6 +20,12 @@ At the time of publishing this repo, the status of this experiment is summarised
 1. Mediawiki and Semantic Mediawiki appear to be reasonable choices for prototyping relatively simple data models. When prototyping a data model, the key required capability is to be able to enter objects and see if it feels complete and correct; for this purpose, Semantic Mediawiki is a good choice. I do not feel like a prototype needs to demonstrate complex queries, but if it did, Semantic Mediawiki would be a poor choice.
 1. No further work will be done on this implementation. The author has migrated the data model to the django python framework which does not suffer from the data currency and querying limitations in Semantic Mediawiki.
 
+## Overall conclusion
+
+My objectives for modeling complex systems portfolios imply very complex analytical functionality and expectation that data accessed has reasonable chances of being current. For this purpose Semantic Mediawiki is a poor choice.
+
+For collaborative systems with simpler analytical needs, it can be a good choice.
+
 # Prerequisites
 1. Debian Wheezy (Stable at the time of writing)
 2. Apache, MySQL, and php from the standard Debian repositories
