@@ -43,3 +43,11 @@ For collaborative systems with simpler analytical needs, it can be a good choice
 4. In SMW Special:Import, import the file structure.xml
 5. Optionally to insert demo data, on Special:ImportCSV import all of the csv files provided in the Simularch distribution.
 6. On the command line, navigate to the MW maintenance extension directory and execute the command: `php runJobs.php`
+
+# Licensing and Rights
+
+The data model represented in structure.xml is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+
+The smw_refresher.sh script is for the most part not my code and therefore not mine to license. See here: https://gist.github.com/mtyeh411/6117098
+
+testdatagen.py may be considered public domain.
